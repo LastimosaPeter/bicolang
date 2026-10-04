@@ -1,0 +1,38 @@
+[
+  {
+    "model": "tfidf",
+    "n": 400,
+    "correct": 400,
+    "accuracy": 1
+  },
+  {
+    "model": "exact",
+    "n": 400,
+    "correct": 400,
+    "accuracy": 1
+  },
+  {
+    "model": "dice",
+    "n": 400,
+    "correct": 400,
+    "accuracy": 1
+  },
+  {
+    "model": "minilm",
+    "n": 400,
+    "correct": 400,
+    "accuracy": 1
+  },
+  {
+    "model": "distiluse",
+    "n": 400,
+    "correct": 400,
+    "accuracy": 1
+  },
+  {
+    "model": "mpnet",
+    "n": 400,
+    "correct": 400,
+    "accuracy": 1
+  }
+]

@@ -1,0 +1,804 @@
+{
+  "measured_at": "2026-10-04T15:19:25.429598+00:00",
+  "seed": 42,
+  "test_queries": 400,
+  "per_direction_per_test": 50,
+  "evaluations": 2400,
+  "dataset_sha256": "32c9d24a158fdeb4feb655ea99fe2cc0f0c038ed9efc450bdb862a4c230d1bd7",
+  "queries_sha256": "3b60d9e39553c6dd7496ae277eb07f0ae6c02c12223fa1313347673d4b328479",
+  "scope": "Synthetic spelling and adjacent-word-swap recovery from dictionary sources; not external translation accuracy. Exact matching and abstention are included.",
+  "inference": "Transformers.js 3.8.1; q8 ONNX weights; Node CPU inference; production retrieval worker. Hybrid weights: 0.75 character + 0.25 embedding. Browser WASM and CPU may have small numerical differences.",
+  "models": {
+    "tfidf": {
+      "name": "Character TF-IDF",
+      "tests": {
+        "spelling": {
+          "n": 200,
+          "rank1_correct": 126,
+          "rank1": 0.63,
+          "hit5": 0.835,
+          "mrr": 0.7124166666666667,
+          "coverage": 0.98,
+          "selective_accuracy": 0.6428571428571429,
+          "rank1_ci95_low": 0.5612262992405038,
+          "rank1_ci95_high": 0.6938739159014072
+        },
+        "syntax_proxy": {
+          "n": 200,
+          "rank1_correct": 200,
+          "rank1": 1.0,
+          "hit5": 1.0,
+          "mrr": 1.0,
+          "coverage": 1.0,
+          "selective_accuracy": 1.0,
+          "rank1_ci95_low": 0.9811546736227346,
+          "rank1_ci95_high": 1
+        }
+      },
+      "directions": {
+        "bicol_to_english": {
+          "spelling": {
+            "n": 50,
+            "rank1_correct": 24,
+            "rank1": 0.48,
+            "hit5": 0.72,
+            "mrr": 0.574,
+            "coverage": 0.98,
+            "selective_accuracy": 0.4897959183673469,
+            "rank1_ci95_low": 0.3479713528657838,
+            "rank1_ci95_high": 0.6148825510995504
+          },
+          "syntax_proxy": {
+            "n": 50,
+            "rank1_correct": 50,
+            "rank1": 1.0,
+            "hit5": 1.0,
+            "mrr": 1.0,
+            "coverage": 1.0,
+            "selective_accuracy": 1.0,
+            "rank1_ci95_low": 0.928652400866645,
+            "rank1_ci95_high": 1
+          }
+        },
+        "bicol_to_tagalog": {
+          "spelling": {
+            "n": 50,
+            "rank1_correct": 24,
+            "rank1": 0.48,
+            "hit5": 0.7,
+            "mrr": 0.5673333333333334,
+            "coverage": 0.98,
+            "selective_accuracy": 0.4897959183673469,
+            "rank1_ci95_low": 0.3479713528657838,
+            "rank1_ci95_high": 0.6148825510995504
+          },
+          "syntax_proxy": {
+            "n": 50,
+            "rank1_correct": 50,
+            "rank1": 1.0,
+            "hit5": 1.0,
+            "mrr": 1.0,
+            "coverage": 1.0,
+            "selective_accuracy": 1.0,
+            "rank1_ci95_low": 0.928652400866645,
+            "rank1_ci95_high": 1
+          }
+        },
+        "english_to_bicol": {
+          "spelling": {
+            "n": 50,
+            "rank1_correct": 41,
+            "rank1": 0.82,
+            "hit5": 0.96,
+            "mrr": 0.89,
+            "coverage": 0.98,
+            "selective_accuracy": 0.8367346938775511,
+            "rank1_ci95_low": 0.6920394632569961,
+            "rank1_ci95_high": 0.9022980732976565
+          },
+          "syntax_proxy": {
+            "n": 50,
+            "rank1_correct": 50,
+            "rank1": 1.0,
+            "hit5": 1.0,
+            "mrr": 1.0,
+            "coverage": 1.0,
+            "selective_accuracy": 1.0,
+            "rank1_ci95_low": 0.928652400866645,
+            "rank1_ci95_high": 1
+          }
+        },
+        "tagalog_to_bicol": {
+          "spelling": {
+            "n": 50,
+            "rank1_correct": 37,
+            "rank1": 0.74,
+            "hit5": 0.96,
+            "mrr": 0.8183333333333335,
+            "coverage": 0.98,
+            "selective_accuracy": 0.7551020408163265,
+            "rank1_ci95_low": 0.6044684273515156,
+            "rank1_ci95_high": 0.841284725064474
+          },
+          "syntax_proxy": {
+            "n": 50,
+            "rank1_correct": 50,
+            "rank1": 1.0,
+            "hit5": 1.0,
+            "mrr": 1.0,
+            "coverage": 1.0,
+            "selective_accuracy": 1.0,
+            "rank1_ci95_low": 0.928652400866645,
+            "rank1_ci95_high": 1
+          }
+        }
+      }
+    },
+    "exact": {
+      "name": "Exact dictionary lookup",
+      "tests": {
+        "spelling": {
+          "n": 200,
+          "rank1_correct": 0,
+          "rank1": 0.0,
+          "hit5": 0.0,
+          "mrr": 0.0,
+          "coverage": 0.01,
+          "selective_accuracy": 0.0,
+          "rank1_ci95_low": 0,
+          "rank1_ci95_high": 0.018845326377265555
+        },
+        "syntax_proxy": {
+          "n": 200,
+          "rank1_correct": 0,
+          "rank1": 0.0,
+          "hit5": 0.0,
+          "mrr": 0.0,
+          "coverage": 0.0,
+          "selective_accuracy": null,
+          "rank1_ci95_low": 0,
+          "rank1_ci95_high": 0.018845326377265555
+        }
+      },
+      "directions": {
+        "bicol_to_english": {
+          "spelling": {
+            "n": 50,
+            "rank1_correct": 0,
+            "rank1": 0.0,
+            "hit5": 0.0,
+            "mrr": 0.0,
+            "coverage": 0.02,
+            "selective_accuracy": 0.0,
+            "rank1_ci95_low": 0,
+            "rank1_ci95_high": 0.07134759913335506
+          },
+          "syntax_proxy": {
+            "n": 50,
+            "rank1_correct": 0,
+            "rank1": 0.0,
+            "hit5": 0.0,
+            "mrr": 0.0,
+            "coverage": 0.0,
+            "selective_accuracy": null,
+            "rank1_ci95_low": 0,
+            "rank1_ci95_high": 0.07134759913335506
+          }
+        },
+        "bicol_to_tagalog": {
+          "spelling": {
+            "n": 50,
+            "rank1_correct": 0,
+            "rank1": 0.0,
+            "hit5": 0.0,
+            "mrr": 0.0,
+            "coverage": 0.02,
+            "selective_accuracy": 0.0,
+            "rank1_ci95_low": 0,
+            "rank1_ci95_high": 0.07134759913335506
+          },
+          "syntax_proxy": {
+            "n": 50,
+            "rank1_correct": 0,
+            "rank1": 0.0,
+            "hit5": 0.0,
+            "mrr": 0.0,
+            "coverage": 0.0,
+            "selective_accuracy": null,
+            "rank1_ci95_low": 0,
+            "rank1_ci95_high": 0.07134759913335506
+          }
+        },
+        "english_to_bicol": {
+          "spelling": {
+            "n": 50,
+            "rank1_correct": 0,
+            "rank1": 0.0,
+            "hit5": 0.0,
+            "mrr": 0.0,
+            "coverage": 0.0,
+            "selective_accuracy": null,
+            "rank1_ci95_low": 0,
+            "rank1_ci95_high": 0.07134759913335506
+          },
+          "syntax_proxy": {
+            "n": 50,
+            "rank1_correct": 0,
+            "rank1": 0.0,
+            "hit5": 0.0,
+            "mrr": 0.0,
+            "coverage": 0.0,
+            "selective_accuracy": null,
+            "rank1_ci95_low": 0,
+            "rank1_ci95_high": 0.07134759913335506
+          }
+        },
+        "tagalog_to_bicol": {
+          "spelling": {
+            "n": 50,
+            "rank1_correct": 0,
+            "rank1": 0.0,
+            "hit5": 0.0,
+            "mrr": 0.0,
+            "coverage": 0.0,
+            "selective_accuracy": null,
+            "rank1_ci95_low": 0,
+            "rank1_ci95_high": 0.07134759913335506
+          },
+          "syntax_proxy": {
+            "n": 50,
+            "rank1_correct": 0,
+            "rank1": 0.0,
+            "hit5": 0.0,
+            "mrr": 0.0,
+            "coverage": 0.0,
+            "selective_accuracy": null,
+            "rank1_ci95_low": 0,
+            "rank1_ci95_high": 0.07134759913335506
+          }
+        }
+      }
+    },
+    "dice": {
+      "name": "Character trigram similarity",
+      "tests": {
+        "spelling": {
+          "n": 200,
+          "rank1_correct": 154,
+          "rank1": 0.77,
+          "hit5": 0.895,
+          "mrr": 0.8275000000000001,
+          "coverage": 1.0,
+          "selective_accuracy": 0.77,
+          "rank1_ci95_low": 0.706916956346966,
+          "rank1_ci95_high": 0.8229065674093107
+        },
+        "syntax_proxy": {
+          "n": 200,
+          "rank1_correct": 192,
+          "rank1": 0.96,
+          "hit5": 1.0,
+          "mrr": 0.98,
+          "coverage": 1.0,
+          "selective_accuracy": 0.96,
+          "rank1_ci95_low": 0.9230679317990683,
+          "rank1_ci95_high": 0.9795943679338474
+        }
+      },
+      "directions": {
+        "bicol_to_english": {
+          "spelling": {
+            "n": 50,
+            "rank1_correct": 30,
+            "rank1": 0.6,
+            "hit5": 0.82,
+            "mrr": 0.7,
+            "coverage": 1.0,
+            "selective_accuracy": 0.6,
+            "rank1_ci95_low": 0.4618143774758974,
+            "rank1_ci95_high": 0.7239161026974317
+          },
+          "syntax_proxy": {
+            "n": 50,
+            "rank1_correct": 47,
+            "rank1": 0.94,
+            "hit5": 1.0,
+            "mrr": 0.97,
+            "coverage": 1.0,
+            "selective_accuracy": 0.94,
+            "rank1_ci95_low": 0.8378290831116221,
+            "rank1_ci95_high": 0.9793850296510255
+          }
+        },
+        "bicol_to_tagalog": {
+          "spelling": {
+            "n": 50,
+            "rank1_correct": 29,
+            "rank1": 0.58,
+            "hit5": 0.8,
+            "mrr": 0.68,
+            "coverage": 1.0,
+            "selective_accuracy": 0.58,
+            "rank1_ci95_low": 0.4423344176857861,
+            "rank1_ci95_high": 0.7062499664528771
+          },
+          "syntax_proxy": {
+            "n": 50,
+            "rank1_correct": 47,
+            "rank1": 0.94,
+            "hit5": 1.0,
+            "mrr": 0.97,
+            "coverage": 1.0,
+            "selective_accuracy": 0.94,
+            "rank1_ci95_low": 0.8378290831116221,
+            "rank1_ci95_high": 0.9793850296510255
+          }
+        },
+        "english_to_bicol": {
+          "spelling": {
+            "n": 50,
+            "rank1_correct": 49,
+            "rank1": 0.98,
+            "hit5": 0.98,
+            "mrr": 0.98,
+            "coverage": 1.0,
+            "selective_accuracy": 0.98,
+            "rank1_ci95_low": 0.8950455641036255,
+            "rank1_ci95_high": 0.9964607407283537
+          },
+          "syntax_proxy": {
+            "n": 50,
+            "rank1_correct": 49,
+            "rank1": 0.98,
+            "hit5": 1.0,
+            "mrr": 0.99,
+            "coverage": 1.0,
+            "selective_accuracy": 0.98,
+            "rank1_ci95_low": 0.8950455641036255,
+            "rank1_ci95_high": 0.9964607407283537
+          }
+        },
+        "tagalog_to_bicol": {
+          "spelling": {
+            "n": 50,
+            "rank1_correct": 46,
+            "rank1": 0.92,
+            "hit5": 0.98,
+            "mrr": 0.95,
+            "coverage": 1.0,
+            "selective_accuracy": 0.92,
+            "rank1_ci95_low": 0.8116175308165755,
+            "rank1_ci95_high": 0.9684504859114064
+          },
+          "syntax_proxy": {
+            "n": 50,
+            "rank1_correct": 49,
+            "rank1": 0.98,
+            "hit5": 1.0,
+            "mrr": 0.99,
+            "coverage": 1.0,
+            "selective_accuracy": 0.98,
+            "rank1_ci95_low": 0.8950455641036255,
+            "rank1_ci95_high": 0.9964607407283537
+          }
+        }
+      }
+    },
+    "minilm": {
+      "name": "Multilingual MiniLM (hybrid)",
+      "tests": {
+        "spelling": {
+          "n": 200,
+          "rank1_correct": 130,
+          "rank1": 0.65,
+          "hit5": 0.855,
+          "mrr": 0.7395,
+          "coverage": 0.98,
+          "selective_accuracy": 0.6632653061224489,
+          "rank1_ci95_low": 0.5816346433604027,
+          "rank1_ci95_high": 0.7127117587264176
+        },
+        "syntax_proxy": {
+          "n": 200,
+          "rank1_correct": 200,
+          "rank1": 1.0,
+          "hit5": 1.0,
+          "mrr": 1.0,
+          "coverage": 1.0,
+          "selective_accuracy": 1.0,
+          "rank1_ci95_low": 0.9811546736227346,
+          "rank1_ci95_high": 1
+        }
+      },
+      "directions": {
+        "bicol_to_english": {
+          "spelling": {
+            "n": 50,
+            "rank1_correct": 26,
+            "rank1": 0.52,
+            "hit5": 0.76,
+            "mrr": 0.6206666666666666,
+            "coverage": 0.98,
+            "selective_accuracy": 0.5306122448979592,
+            "rank1_ci95_low": 0.38511744890044963,
+            "rank1_ci95_high": 0.6520286471342163
+          },
+          "syntax_proxy": {
+            "n": 50,
+            "rank1_correct": 50,
+            "rank1": 1.0,
+            "hit5": 1.0,
+            "mrr": 1.0,
+            "coverage": 1.0,
+            "selective_accuracy": 1.0,
+            "rank1_ci95_low": 0.928652400866645,
+            "rank1_ci95_high": 1
+          }
+        },
+        "bicol_to_tagalog": {
+          "spelling": {
+            "n": 50,
+            "rank1_correct": 26,
+            "rank1": 0.52,
+            "hit5": 0.74,
+            "mrr": 0.614,
+            "coverage": 0.98,
+            "selective_accuracy": 0.5306122448979592,
+            "rank1_ci95_low": 0.38511744890044963,
+            "rank1_ci95_high": 0.6520286471342163
+          },
+          "syntax_proxy": {
+            "n": 50,
+            "rank1_correct": 50,
+            "rank1": 1.0,
+            "hit5": 1.0,
+            "mrr": 1.0,
+            "coverage": 1.0,
+            "selective_accuracy": 1.0,
+            "rank1_ci95_low": 0.928652400866645,
+            "rank1_ci95_high": 1
+          }
+        },
+        "english_to_bicol": {
+          "spelling": {
+            "n": 50,
+            "rank1_correct": 40,
+            "rank1": 0.8,
+            "hit5": 0.96,
+            "mrr": 0.8766666666666666,
+            "coverage": 0.98,
+            "selective_accuracy": 0.8163265306122449,
+            "rank1_ci95_low": 0.6696289406777499,
+            "rank1_ci95_high": 0.8875624998422372
+          },
+          "syntax_proxy": {
+            "n": 50,
+            "rank1_correct": 50,
+            "rank1": 1.0,
+            "hit5": 1.0,
+            "mrr": 1.0,
+            "coverage": 1.0,
+            "selective_accuracy": 1.0,
+            "rank1_ci95_low": 0.928652400866645,
+            "rank1_ci95_high": 1
+          }
+        },
+        "tagalog_to_bicol": {
+          "spelling": {
+            "n": 50,
+            "rank1_correct": 38,
+            "rank1": 0.76,
+            "hit5": 0.96,
+            "mrr": 0.8466666666666667,
+            "coverage": 0.98,
+            "selective_accuracy": 0.7755102040816326,
+            "rank1_ci95_low": 0.6258731624205748,
+            "rank1_ci95_high": 0.8570260860300806
+          },
+          "syntax_proxy": {
+            "n": 50,
+            "rank1_correct": 50,
+            "rank1": 1.0,
+            "hit5": 1.0,
+            "mrr": 1.0,
+            "coverage": 1.0,
+            "selective_accuracy": 1.0,
+            "rank1_ci95_low": 0.928652400866645,
+            "rank1_ci95_high": 1
+          }
+        }
+      }
+    },
+    "distiluse": {
+      "name": "Multilingual DistilUSE (hybrid)",
+      "tests": {
+        "spelling": {
+          "n": 200,
+          "rank1_correct": 140,
+          "rank1": 0.7,
+          "hit5": 0.86,
+          "mrr": 0.765,
+          "coverage": 0.98,
+          "selective_accuracy": 0.7142857142857143,
+          "rank1_ci95_low": 0.6332093162728093,
+          "rank1_ci95_high": 0.7592525531762845
+        },
+        "syntax_proxy": {
+          "n": 200,
+          "rank1_correct": 200,
+          "rank1": 1.0,
+          "hit5": 1.0,
+          "mrr": 1.0,
+          "coverage": 1.0,
+          "selective_accuracy": 1.0,
+          "rank1_ci95_low": 0.9811546736227346,
+          "rank1_ci95_high": 1
+        }
+      },
+      "directions": {
+        "bicol_to_english": {
+          "spelling": {
+            "n": 50,
+            "rank1_correct": 29,
+            "rank1": 0.58,
+            "hit5": 0.76,
+            "mrr": 0.6516666666666666,
+            "coverage": 0.98,
+            "selective_accuracy": 0.5918367346938775,
+            "rank1_ci95_low": 0.4423344176857861,
+            "rank1_ci95_high": 0.7062499664528771
+          },
+          "syntax_proxy": {
+            "n": 50,
+            "rank1_correct": 50,
+            "rank1": 1.0,
+            "hit5": 1.0,
+            "mrr": 1.0,
+            "coverage": 1.0,
+            "selective_accuracy": 1.0,
+            "rank1_ci95_low": 0.928652400866645,
+            "rank1_ci95_high": 1
+          }
+        },
+        "bicol_to_tagalog": {
+          "spelling": {
+            "n": 50,
+            "rank1_correct": 29,
+            "rank1": 0.58,
+            "hit5": 0.74,
+            "mrr": 0.645,
+            "coverage": 0.98,
+            "selective_accuracy": 0.5918367346938775,
+            "rank1_ci95_low": 0.4423344176857861,
+            "rank1_ci95_high": 0.7062499664528771
+          },
+          "syntax_proxy": {
+            "n": 50,
+            "rank1_correct": 50,
+            "rank1": 1.0,
+            "hit5": 1.0,
+            "mrr": 1.0,
+            "coverage": 1.0,
+            "selective_accuracy": 1.0,
+            "rank1_ci95_low": 0.928652400866645,
+            "rank1_ci95_high": 1
+          }
+        },
+        "english_to_bicol": {
+          "spelling": {
+            "n": 50,
+            "rank1_correct": 42,
+            "rank1": 0.84,
+            "hit5": 0.96,
+            "mrr": 0.8966666666666667,
+            "coverage": 0.98,
+            "selective_accuracy": 0.8571428571428571,
+            "rank1_ci95_low": 0.7148578393696541,
+            "rank1_ci95_high": 0.9166257932196644
+          },
+          "syntax_proxy": {
+            "n": 50,
+            "rank1_correct": 50,
+            "rank1": 1.0,
+            "hit5": 1.0,
+            "mrr": 1.0,
+            "coverage": 1.0,
+            "selective_accuracy": 1.0,
+            "rank1_ci95_low": 0.928652400866645,
+            "rank1_ci95_high": 1
+          }
+        },
+        "tagalog_to_bicol": {
+          "spelling": {
+            "n": 50,
+            "rank1_correct": 40,
+            "rank1": 0.8,
+            "hit5": 0.98,
+            "mrr": 0.8666666666666666,
+            "coverage": 0.98,
+            "selective_accuracy": 0.8163265306122449,
+            "rank1_ci95_low": 0.6696289406777499,
+            "rank1_ci95_high": 0.8875624998422372
+          },
+          "syntax_proxy": {
+            "n": 50,
+            "rank1_correct": 50,
+            "rank1": 1.0,
+            "hit5": 1.0,
+            "mrr": 1.0,
+            "coverage": 1.0,
+            "selective_accuracy": 1.0,
+            "rank1_ci95_low": 0.928652400866645,
+            "rank1_ci95_high": 1
+          }
+        }
+      }
+    },
+    "mpnet": {
+      "name": "Multilingual MPNet (hybrid)",
+      "tests": {
+        "spelling": {
+          "n": 200,
+          "rank1_correct": 136,
+          "rank1": 0.68,
+          "hit5": 0.85,
+          "mrr": 0.7476666666666667,
+          "coverage": 0.98,
+          "selective_accuracy": 0.6938775510204082,
+          "rank1_ci95_low": 0.6124810156588665,
+          "rank1_ci95_high": 0.7407346668453181
+        },
+        "syntax_proxy": {
+          "n": 200,
+          "rank1_correct": 200,
+          "rank1": 1.0,
+          "hit5": 1.0,
+          "mrr": 1.0,
+          "coverage": 1.0,
+          "selective_accuracy": 1.0,
+          "rank1_ci95_low": 0.9811546736227346,
+          "rank1_ci95_high": 1
+        }
+      },
+      "directions": {
+        "bicol_to_english": {
+          "spelling": {
+            "n": 50,
+            "rank1_correct": 28,
+            "rank1": 0.56,
+            "hit5": 0.74,
+            "mrr": 0.6283333333333334,
+            "coverage": 0.98,
+            "selective_accuracy": 0.5714285714285714,
+            "rank1_ci95_low": 0.4230602802165722,
+            "rank1_ci95_high": 0.6883780078874253
+          },
+          "syntax_proxy": {
+            "n": 50,
+            "rank1_correct": 50,
+            "rank1": 1.0,
+            "hit5": 1.0,
+            "mrr": 1.0,
+            "coverage": 1.0,
+            "selective_accuracy": 1.0,
+            "rank1_ci95_low": 0.928652400866645,
+            "rank1_ci95_high": 1
+          }
+        },
+        "bicol_to_tagalog": {
+          "spelling": {
+            "n": 50,
+            "rank1_correct": 28,
+            "rank1": 0.56,
+            "hit5": 0.72,
+            "mrr": 0.6216666666666666,
+            "coverage": 0.98,
+            "selective_accuracy": 0.5714285714285714,
+            "rank1_ci95_low": 0.4230602802165722,
+            "rank1_ci95_high": 0.6883780078874253
+          },
+          "syntax_proxy": {
+            "n": 50,
+            "rank1_correct": 50,
+            "rank1": 1.0,
+            "hit5": 1.0,
+            "mrr": 1.0,
+            "coverage": 1.0,
+            "selective_accuracy": 1.0,
+            "rank1_ci95_low": 0.928652400866645,
+            "rank1_ci95_high": 1
+          }
+        },
+        "english_to_bicol": {
+          "spelling": {
+            "n": 50,
+            "rank1_correct": 41,
+            "rank1": 0.82,
+            "hit5": 0.96,
+            "mrr": 0.8866666666666667,
+            "coverage": 0.98,
+            "selective_accuracy": 0.8367346938775511,
+            "rank1_ci95_low": 0.6920394632569961,
+            "rank1_ci95_high": 0.9022980732976565
+          },
+          "syntax_proxy": {
+            "n": 50,
+            "rank1_correct": 50,
+            "rank1": 1.0,
+            "hit5": 1.0,
+            "mrr": 1.0,
+            "coverage": 1.0,
+            "selective_accuracy": 1.0,
+            "rank1_ci95_low": 0.928652400866645,
+            "rank1_ci95_high": 1
+          }
+        },
+        "tagalog_to_bicol": {
+          "spelling": {
+            "n": 50,
+            "rank1_correct": 39,
+            "rank1": 0.78,
+            "hit5": 0.98,
+            "mrr": 0.8539999999999999,
+            "coverage": 0.98,
+            "selective_accuracy": 0.7959183673469388,
+            "rank1_ci95_low": 0.6475845041874673,
+            "rank1_ci95_high": 0.872460840297854
+          },
+          "syntax_proxy": {
+            "n": 50,
+            "rank1_correct": 50,
+            "rank1": 1.0,
+            "hit5": 1.0,
+            "mrr": 1.0,
+            "coverage": 1.0,
+            "selective_accuracy": 1.0,
+            "rank1_ci95_low": 0.928652400866645,
+            "rank1_ci95_high": 1
+          }
+        }
+      }
+    }
+  },
+  "external_translation_test": "Pending human verification",
+  "known_entry_control": {
+    "tfidf": {
+      "model": "tfidf",
+      "n": 400,
+      "correct": 400,
+      "accuracy": 1
+    },
+    "exact": {
+      "model": "exact",
+      "n": 400,
+      "correct": 400,
+      "accuracy": 1
+    },
+    "dice": {
+      "model": "dice",
+      "n": 400,
+      "correct": 400,
+      "accuracy": 1
+    },
+    "minilm": {
+      "model": "minilm",
+      "n": 400,
+      "correct": 400,
+      "accuracy": 1
+    },
+    "distiluse": {
+      "model": "distiluse",
+      "n": 400,
+      "correct": 400,
+      "accuracy": 1
+    },
+    "mpnet": {
+      "model": "mpnet",
+      "n": 400,
+      "correct": 400,
+      "accuracy": 1
+    }
+  },
+  "known_entry_control_note": "Direct lookup of original indexed sources, not generalization accuracy.",
+  "confidence_interval_note": "Wilson intervals are descriptive pilot intervals; repeated dictionary senses and shared directions are not independent."
+}

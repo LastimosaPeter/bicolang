@@ -1,0 +1,4920 @@
+{
+  "sample_size_per_direction_and_test": 50,
+  "seed": 42,
+  "tests": [
+    {
+      "id": "bicol_to_english_spelling_001",
+      "direction": "bicol_to_english",
+      "source": "Bicol",
+      "target_column": 1,
+      "test_type": "spelling",
+      "original": "Ypinagsosohot",
+      "query": "pYinagsosohot",
+      "references": [
+        "that which enters such a place, time, and cause of passing through a narrow place.",
+        "time and cause of smoke coming out of a pot or rice."
+      ]
+    },
+    {
+      "id": "bicol_to_english_spelling_002",
+      "direction": "bicol_to_english",
+      "source": "Bicol",
+      "target_column": 1,
+      "test_type": "spelling",
+      "original": "Naghimaha",
+      "query": "Naghimaah",
+      "references": [
+        "quenched"
+      ]
+    },
+    {
+      "id": "bicol_to_english_spelling_003",
+      "direction": "bicol_to_english",
+      "source": "Bicol",
+      "target_column": 1,
+      "test_type": "spelling",
+      "original": "Ysinasanghid",
+      "query": "Ysinasanghdi",
+      "references": [
+        "gold tested, time, and cause"
+      ]
+    },
+    {
+      "id": "bicol_to_english_spelling_004",
+      "direction": "bicol_to_english",
+      "source": "Bicol",
+      "target_column": 1,
+      "test_type": "spelling",
+      "original": "Pinaghihicogan",
+      "query": "Pinahgihicogan",
+      "references": [
+        "place"
+      ]
+    },
+    {
+      "id": "bicol_to_english_spelling_005",
+      "direction": "bicol_to_english",
+      "source": "Bicol",
+      "target_column": 1,
+      "test_type": "spelling",
+      "original": "HINAHALTAN",
+      "query": "HINHAALTAN",
+      "references": [
+        "place/person"
+      ]
+    },
+    {
+      "id": "bicol_to_english_spelling_006",
+      "direction": "bicol_to_english",
+      "source": "Bicol",
+      "target_column": 1,
+      "test_type": "spelling",
+      "original": "Nagguiringguiting",
+      "query": "Nagguiirngguiting",
+      "references": [
+        "to do with unequal edges"
+      ]
+    },
+    {
+      "id": "bicol_to_english_spelling_007",
+      "direction": "bicol_to_english",
+      "source": "Bicol",
+      "target_column": 1,
+      "test_type": "spelling",
+      "original": "Codot",
+      "query": "Codto",
+      "references": [
+        "pinch"
+      ]
+    },
+    {
+      "id": "bicol_to_english_spelling_008",
+      "direction": "bicol_to_english",
+      "source": "Bicol",
+      "target_column": 1,
+      "test_type": "spelling",
+      "original": "Ypinagsosole",
+      "query": "Ypingasosole",
+      "references": [
+        "time and cause of sprout of the bamboo cane."
+      ]
+    },
+    {
+      "id": "bicol_to_english_spelling_009",
+      "direction": "bicol_to_english",
+      "source": "Bicol",
+      "target_column": 1,
+      "test_type": "spelling",
+      "original": "Nacacadiquil",
+      "query": "Naccaadiquil",
+      "references": [
+        "to touch accidentally"
+      ]
+    },
+    {
+      "id": "bicol_to_english_spelling_010",
+      "direction": "bicol_to_english",
+      "source": "Bicol",
+      "target_column": 1,
+      "test_type": "spelling",
+      "original": "Pinagrayoan",
+      "query": "Pinagryaoan",
+      "references": [
+        "place of going far away"
+      ]
+    },
+    {
+      "id": "bicol_to_english_spelling_011",
+      "direction": "bicol_to_english",
+      "source": "Bicol",
+      "target_column": 1,
+      "test_type": "spelling",
+      "original": "Binabagbag",
+      "query": "Binabgabag",
+      "references": [
+        "the ships being thus sunk"
+      ]
+    },
+    {
+      "id": "bicol_to_english_spelling_012",
+      "direction": "bicol_to_english",
+      "source": "Bicol",
+      "target_column": 1,
+      "test_type": "spelling",
+      "original": "SAEN",
+      "query": "SANE",
+      "references": [
+        "where"
+      ]
+    },
+    {
+      "id": "bicol_to_english_spelling_013",
+      "direction": "bicol_to_english",
+      "source": "Bicol",
+      "target_column": 1,
+      "test_type": "spelling",
+      "original": "Ypinagpuling",
+      "query": "Ypinagpuilng",
+      "references": [
+        "speck in eye"
+      ]
+    },
+    {
+      "id": "bicol_to_english_spelling_014",
+      "direction": "bicol_to_english",
+      "source": "Bicol",
+      "target_column": 1,
+      "test_type": "spelling",
+      "original": "Naglisag",
+      "query": "Ngalisag",
+      "references": [
+        "to make noise with beatings"
+      ]
+    },
+    {
+      "id": "bicol_to_english_spelling_015",
+      "direction": "bicol_to_english",
+      "source": "Bicol",
+      "target_column": 1,
+      "test_type": "spelling",
+      "original": "Pinagahaean",
+      "query": "Pinagaheaan",
+      "references": [
+        "place"
+      ]
+    },
+    {
+      "id": "bicol_to_english_spelling_016",
+      "direction": "bicol_to_english",
+      "source": "Bicol",
+      "target_column": 1,
+      "test_type": "spelling",
+      "original": "Nadiclom",
+      "query": "Nadiclmo",
+      "references": [
+        "becoming dark"
+      ]
+    },
+    {
+      "id": "bicol_to_english_spelling_017",
+      "direction": "bicol_to_english",
+      "source": "Bicol",
+      "target_column": 1,
+      "test_type": "spelling",
+      "original": "Sinalacat",
+      "query": "Sinalaact",
+      "references": [
+        "person or thing that caused action"
+      ]
+    },
+    {
+      "id": "bicol_to_english_spelling_018",
+      "direction": "bicol_to_english",
+      "source": "Bicol",
+      "target_column": 1,
+      "test_type": "spelling",
+      "original": "Lanod",
+      "query": "Lando",
+      "references": [
+        "sinking thing"
+      ]
+    },
+    {
+      "id": "bicol_to_english_spelling_019",
+      "direction": "bicol_to_english",
+      "source": "Bicol",
+      "target_column": 1,
+      "test_type": "spelling",
+      "original": "Guinaganit",
+      "query": "uGinaganit",
+      "references": [
+        "pulled"
+      ]
+    },
+    {
+      "id": "bicol_to_english_spelling_020",
+      "direction": "bicol_to_english",
+      "source": "Bicol",
+      "target_column": 1,
+      "test_type": "spelling",
+      "original": "Pinagsapağnan",
+      "query": "Pinagsapagnan",
+      "references": [
+        "place of dyeing with a false color"
+      ]
+    },
+    {
+      "id": "bicol_to_english_spelling_021",
+      "direction": "bicol_to_english",
+      "source": "Bicol",
+      "target_column": 1,
+      "test_type": "spelling",
+      "original": "pinaguaayan",
+      "query": "pingauaayan",
+      "references": [
+        "place or person of lifting the arms"
+      ]
+    },
+    {
+      "id": "bicol_to_english_spelling_022",
+      "direction": "bicol_to_english",
+      "source": "Bicol",
+      "target_column": 1,
+      "test_type": "spelling",
+      "original": "Ytinutuua",
+      "query": "Ytniutuua",
+      "references": [
+        "instrument, time, and cause."
+      ]
+    },
+    {
+      "id": "bicol_to_english_spelling_023",
+      "direction": "bicol_to_english",
+      "source": "Bicol",
+      "target_column": 1,
+      "test_type": "spelling",
+      "original": "Dinodocot",
+      "query": "Dindoocot",
+      "references": [
+        "the reason for putting the hand / time / cause"
+      ]
+    },
+    {
+      "id": "bicol_to_english_spelling_024",
+      "direction": "bicol_to_english",
+      "source": "Bicol",
+      "target_column": 1,
+      "test_type": "spelling",
+      "original": "Pinapare",
+      "query": "iPnapare",
+      "references": [
+        "one targeted by anger"
+      ]
+    },
+    {
+      "id": "bicol_to_english_spelling_025",
+      "direction": "bicol_to_english",
+      "source": "Bicol",
+      "target_column": 1,
+      "test_type": "spelling",
+      "original": "PIOL",
+      "query": "POIL",
+      "references": [
+        "supports for container"
+      ]
+    },
+    {
+      "id": "bicol_to_english_spelling_026",
+      "direction": "bicol_to_english",
+      "source": "Bicol",
+      "target_column": 1,
+      "test_type": "spelling",
+      "original": "Nagguinhaua",
+      "query": "Nagguihnaua",
+      "references": [
+        "to breathe or exhale"
+      ]
+    },
+    {
+      "id": "bicol_to_english_spelling_027",
+      "direction": "bicol_to_english",
+      "source": "Bicol",
+      "target_column": 1,
+      "test_type": "spelling",
+      "original": "Nagsugmat",
+      "query": "Nasgugmat",
+      "references": [
+        "recurred"
+      ]
+    },
+    {
+      "id": "bicol_to_english_spelling_028",
+      "direction": "bicol_to_english",
+      "source": "Bicol",
+      "target_column": 1,
+      "test_type": "spelling",
+      "original": "Nagsangcap",
+      "query": "Nagsnagcap",
+      "references": [
+        "to fix or fill all places"
+      ]
+    },
+    {
+      "id": "bicol_to_english_spelling_029",
+      "direction": "bicol_to_english",
+      "source": "Bicol",
+      "target_column": 1,
+      "test_type": "spelling",
+      "original": "Ylinoloğnasi",
+      "query": "Ylinolognasi",
+      "references": [
+        "time and cause",
+        "time and cause of becoming pale"
+      ]
+    },
+    {
+      "id": "bicol_to_english_spelling_030",
+      "direction": "bicol_to_english",
+      "source": "Bicol",
+      "target_column": 1,
+      "test_type": "spelling",
+      "original": "HAMLANG",
+      "query": "HAMALNG",
+      "references": [
+        "joke/toy"
+      ]
+    },
+    {
+      "id": "bicol_to_english_spelling_031",
+      "direction": "bicol_to_english",
+      "source": "Bicol",
+      "target_column": 1,
+      "test_type": "spelling",
+      "original": "NARONOT",
+      "query": "NARONTO",
+      "references": [
+        "crumbled"
+      ]
+    },
+    {
+      "id": "bicol_to_english_spelling_032",
+      "direction": "bicol_to_english",
+      "source": "Bicol",
+      "target_column": 1,
+      "test_type": "spelling",
+      "original": "Tinutungcaan",
+      "query": "Tinutungcana",
+      "references": [
+        "the place of dozing."
+      ]
+    },
+    {
+      "id": "bicol_to_english_spelling_033",
+      "direction": "bicol_to_english",
+      "source": "Bicol",
+      "target_column": 1,
+      "test_type": "spelling",
+      "original": "Nagdaran",
+      "query": "Nagdaarn",
+      "references": [
+        "to paint in colors"
+      ]
+    },
+    {
+      "id": "bicol_to_english_spelling_034",
+      "direction": "bicol_to_english",
+      "source": "Bicol",
+      "target_column": 1,
+      "test_type": "spelling",
+      "original": "SINOSONGYAUAN",
+      "query": "SINOSONGYUAAN",
+      "references": [
+        "that which is being destroyed or harmed."
+      ]
+    },
+    {
+      "id": "bicol_to_english_spelling_035",
+      "direction": "bicol_to_english",
+      "source": "Bicol",
+      "target_column": 1,
+      "test_type": "spelling",
+      "original": "Dinidihog̃nan",
+      "query": "Dinidihognan",
+      "references": [
+        "the place"
+      ]
+    },
+    {
+      "id": "bicol_to_english_spelling_036",
+      "direction": "bicol_to_english",
+      "source": "Bicol",
+      "target_column": 1,
+      "test_type": "spelling",
+      "original": "Mapagmatong tauo",
+      "query": "Mpaagmatong tauo",
+      "references": [
+        "attentive or concerned person"
+      ]
+    },
+    {
+      "id": "bicol_to_english_spelling_037",
+      "direction": "bicol_to_english",
+      "source": "Bicol",
+      "target_column": 1,
+      "test_type": "spelling",
+      "original": "Pinagpapatogbosan",
+      "query": "Pinagappatogbosan",
+      "references": [
+        "words added or the person"
+      ]
+    },
+    {
+      "id": "bicol_to_english_spelling_038",
+      "direction": "bicol_to_english",
+      "source": "Bicol",
+      "target_column": 1,
+      "test_type": "spelling",
+      "original": "Pinaggosad",
+      "query": "Pinagogsad",
+      "references": [
+        "what is being taken out"
+      ]
+    },
+    {
+      "id": "bicol_to_english_spelling_039",
+      "direction": "bicol_to_english",
+      "source": "Bicol",
+      "target_column": 1,
+      "test_type": "spelling",
+      "original": "NAHAGOD",
+      "query": "NAHAGDO",
+      "references": [
+        "rubbed"
+      ]
+    },
+    {
+      "id": "bicol_to_english_spelling_040",
+      "direction": "bicol_to_english",
+      "source": "Bicol",
+      "target_column": 1,
+      "test_type": "spelling",
+      "original": "Pinagpulli",
+      "query": "Pinagpulil",
+      "references": [
+        "reason for return"
+      ]
+    },
+    {
+      "id": "bicol_to_english_spelling_041",
+      "direction": "bicol_to_english",
+      "source": "Bicol",
+      "target_column": 1,
+      "test_type": "spelling",
+      "original": "Binoboguay",
+      "query": "Binobgouay",
+      "references": [
+        "metal being pounded"
+      ]
+    },
+    {
+      "id": "bicol_to_english_spelling_042",
+      "direction": "bicol_to_english",
+      "source": "Bicol",
+      "target_column": 1,
+      "test_type": "spelling",
+      "original": "NATOTOLTOG",
+      "query": "ANTOTOLTOG",
+      "references": [
+        "something being bruised by accident."
+      ]
+    },
+    {
+      "id": "bicol_to_english_spelling_043",
+      "direction": "bicol_to_english",
+      "source": "Bicol",
+      "target_column": 1,
+      "test_type": "spelling",
+      "original": "Pinagdudumarahan",
+      "query": "iPnagdudumarahan",
+      "references": [
+        "the place"
+      ]
+    },
+    {
+      "id": "bicol_to_english_spelling_044",
+      "direction": "bicol_to_english",
+      "source": "Bicol",
+      "target_column": 1,
+      "test_type": "spelling",
+      "original": "YSINOSORAGPAC",
+      "query": "YSINOSORGAPAC",
+      "references": [
+        "time and cause of disheveled hair."
+      ]
+    },
+    {
+      "id": "bicol_to_english_spelling_045",
+      "direction": "bicol_to_english",
+      "source": "Bicol",
+      "target_column": 1,
+      "test_type": "spelling",
+      "original": "BICANG",
+      "query": "BCIANG",
+      "references": [
+        "parted leg position"
+      ]
+    },
+    {
+      "id": "bicol_to_english_spelling_046",
+      "direction": "bicol_to_english",
+      "source": "Bicol",
+      "target_column": 1,
+      "test_type": "spelling",
+      "original": "Ypinaquiquiubag",
+      "query": "Yipnaquiquiubag",
+      "references": [
+        "thing being asked about"
+      ]
+    },
+    {
+      "id": "bicol_to_english_spelling_047",
+      "direction": "bicol_to_english",
+      "source": "Bicol",
+      "target_column": 1,
+      "test_type": "spelling",
+      "original": "Ypinagsugbò",
+      "query": "Ypinagsugbo",
+      "references": [
+        "sprouting"
+      ]
+    },
+    {
+      "id": "bicol_to_english_spelling_048",
+      "direction": "bicol_to_english",
+      "source": "Bicol",
+      "target_column": 1,
+      "test_type": "spelling",
+      "original": "SINUSUBLATAN",
+      "query": "SNIUSUBLATAN",
+      "references": [
+        "place of being bitten by bugs."
+      ]
+    },
+    {
+      "id": "bicol_to_english_spelling_049",
+      "direction": "bicol_to_english",
+      "source": "Bicol",
+      "target_column": 1,
+      "test_type": "spelling",
+      "original": "SINOSOROCAN",
+      "query": "SINOOSROCAN",
+      "references": [
+        "place where fish is pulling at the hook."
+      ]
+    },
+    {
+      "id": "bicol_to_english_spelling_050",
+      "direction": "bicol_to_english",
+      "source": "Bicol",
+      "target_column": 1,
+      "test_type": "spelling",
+      "original": "Naggoop",
+      "query": "Ngagoop",
+      "references": [
+        "to hold tight / break with teeth"
+      ]
+    },
+    {
+      "id": "bicol_to_english_syntax_proxy_001",
+      "direction": "bicol_to_english",
+      "source": "Bicol",
+      "target_column": 1,
+      "test_type": "syntax_proxy",
+      "original": "Linag yó",
+      "query": "yó Linag",
+      "references": [
+        "something being spoken by similes and parables."
+      ]
+    },
+    {
+      "id": "bicol_to_english_syntax_proxy_002",
+      "direction": "bicol_to_english",
+      "source": "Bicol",
+      "target_column": 1,
+      "test_type": "syntax_proxy",
+      "original": "GARO (3)",
+      "query": "(3) GARO",
+      "references": [
+        "tame-animal"
+      ]
+    },
+    {
+      "id": "bicol_to_english_syntax_proxy_003",
+      "direction": "bicol_to_english",
+      "source": "Bicol",
+      "target_column": 1,
+      "test_type": "syntax_proxy",
+      "original": "Yliniodliod / Ypinag",
+      "query": "Yliniodliod Ypinag /",
+      "references": [
+        "eyes",
+        "eyes used for looking"
+      ]
+    },
+    {
+      "id": "bicol_to_english_syntax_proxy_004",
+      "direction": "bicol_to_english",
+      "source": "Bicol",
+      "target_column": 1,
+      "test_type": "syntax_proxy",
+      "original": "Latoc (1)",
+      "query": "(1) Latoc",
+      "references": [
+        "bench"
+      ]
+    },
+    {
+      "id": "bicol_to_english_syntax_proxy_005",
+      "direction": "bicol_to_english",
+      "source": "Bicol",
+      "target_column": 1,
+      "test_type": "syntax_proxy",
+      "original": "DAYN TUBOD YNING BOBON...",
+      "query": "DAYN YNING TUBOD BOBON...",
+      "references": [
+        "nothing is flowing at all from this well."
+      ]
+    },
+    {
+      "id": "bicol_to_english_syntax_proxy_006",
+      "direction": "bicol_to_english",
+      "source": "Bicol",
+      "target_column": 1,
+      "test_type": "syntax_proxy",
+      "original": "Si day malilisong boot nin tauo",
+      "query": "Si day boot malilisong nin tauo",
+      "references": [
+        "expression: \"oh, what an intransigent person!\""
+      ]
+    },
+    {
+      "id": "bicol_to_english_syntax_proxy_007",
+      "direction": "bicol_to_english",
+      "source": "Bicol",
+      "target_column": 1,
+      "test_type": "syntax_proxy",
+      "original": "Pasacatsacat co dihan",
+      "query": "Pasacatsacat dihan co",
+      "references": [
+        "going"
+      ]
+    },
+    {
+      "id": "bicol_to_english_syntax_proxy_008",
+      "direction": "bicol_to_english",
+      "source": "Bicol",
+      "target_column": 1,
+      "test_type": "syntax_proxy",
+      "original": "Nagagalinao co yning saymong boot",
+      "query": "Nagagalinao yning co saymong boot",
+      "references": [
+        "foolish"
+      ]
+    },
+    {
+      "id": "bicol_to_english_syntax_proxy_009",
+      "direction": "bicol_to_english",
+      "source": "Bicol",
+      "target_column": 1,
+      "test_type": "syntax_proxy",
+      "original": "ypinag (ypinaglantay)",
+      "query": "(ypinaglantay) ypinag",
+      "references": [
+        "instrument / time"
+      ]
+    },
+    {
+      "id": "bicol_to_english_syntax_proxy_010",
+      "direction": "bicol_to_english",
+      "source": "Bicol",
+      "target_column": 1,
+      "test_type": "syntax_proxy",
+      "original": "AN PAGCAYSI",
+      "query": "PAGCAYSI AN",
+      "references": [
+        "the manner of understanding thus."
+      ]
+    },
+    {
+      "id": "bicol_to_english_syntax_proxy_011",
+      "direction": "bicol_to_english",
+      "source": "Bicol",
+      "target_column": 1,
+      "test_type": "syntax_proxy",
+      "original": "Naaro anohan",
+      "query": "anohan Naaro",
+      "references": [
+        "one is embarrassed"
+      ]
+    },
+    {
+      "id": "bicol_to_english_syntax_proxy_012",
+      "direction": "bicol_to_english",
+      "source": "Bicol",
+      "target_column": 1,
+      "test_type": "syntax_proxy",
+      "original": "Sinasaripsip na tauo",
+      "query": "na Sinasaripsip tauo",
+      "references": [
+        "someone hiding very well"
+      ]
+    },
+    {
+      "id": "bicol_to_english_syntax_proxy_013",
+      "direction": "bicol_to_english",
+      "source": "Bicol",
+      "target_column": 1,
+      "test_type": "syntax_proxy",
+      "original": "Yynaaqui aqui",
+      "query": "aqui Yynaaqui",
+      "references": [
+        "time and cause of acting childish"
+      ]
+    },
+    {
+      "id": "bicol_to_english_syntax_proxy_014",
+      "direction": "bicol_to_english",
+      "source": "Bicol",
+      "target_column": 1,
+      "test_type": "syntax_proxy",
+      "original": "Lima gabos",
+      "query": "gabos Lima",
+      "references": [
+        "five"
+      ]
+    },
+    {
+      "id": "bicol_to_english_syntax_proxy_015",
+      "direction": "bicol_to_english",
+      "source": "Bicol",
+      "target_column": 1,
+      "test_type": "syntax_proxy",
+      "original": "Pinagaapat apatan",
+      "query": "apatan Pinagaapat",
+      "references": [
+        "at the pounding place in fours"
+      ]
+    },
+    {
+      "id": "bicol_to_english_syntax_proxy_016",
+      "direction": "bicol_to_english",
+      "source": "Bicol",
+      "target_column": 1,
+      "test_type": "syntax_proxy",
+      "original": "An pagcahararom",
+      "query": "pagcahararom An",
+      "references": [
+        "the depth"
+      ]
+    },
+    {
+      "id": "bicol_to_english_syntax_proxy_017",
+      "direction": "bicol_to_english",
+      "source": "Bicol",
+      "target_column": 1,
+      "test_type": "syntax_proxy",
+      "original": "Nalihad / Nag",
+      "query": "/ Nalihad Nag",
+      "references": [
+        "cutting"
+      ]
+    },
+    {
+      "id": "bicol_to_english_syntax_proxy_018",
+      "direction": "bicol_to_english",
+      "source": "Bicol",
+      "target_column": 1,
+      "test_type": "syntax_proxy",
+      "original": "Day nacacatigâ",
+      "query": "nacacatigâ Day",
+      "references": [
+        "cannot be exhausted"
+      ]
+    },
+    {
+      "id": "bicol_to_english_syntax_proxy_019",
+      "direction": "bicol_to_english",
+      "source": "Bicol",
+      "target_column": 1,
+      "test_type": "syntax_proxy",
+      "original": "Baro na tauo",
+      "query": "na Baro tauo",
+      "references": [
+        "stubborn fellow"
+      ]
+    },
+    {
+      "id": "bicol_to_english_syntax_proxy_020",
+      "direction": "bicol_to_english",
+      "source": "Bicol",
+      "target_column": 1,
+      "test_type": "syntax_proxy",
+      "original": "Togdas na olay",
+      "query": "Togdas olay na",
+      "references": [
+        "neologism"
+      ]
+    },
+    {
+      "id": "bicol_to_english_syntax_proxy_021",
+      "direction": "bicol_to_english",
+      "source": "Bicol",
+      "target_column": 1,
+      "test_type": "syntax_proxy",
+      "original": "Saro lamang",
+      "query": "lamang Saro",
+      "references": [
+        "one"
+      ]
+    },
+    {
+      "id": "bicol_to_english_syntax_proxy_022",
+      "direction": "bicol_to_english",
+      "source": "Bicol",
+      "target_column": 1,
+      "test_type": "syntax_proxy",
+      "original": "Naapat apat",
+      "query": "apat Naapat",
+      "references": [
+        "they work in fours"
+      ]
+    },
+    {
+      "id": "bicol_to_english_syntax_proxy_023",
+      "direction": "bicol_to_english",
+      "source": "Bicol",
+      "target_column": 1,
+      "test_type": "syntax_proxy",
+      "original": "Ylinilipas / Ypinag",
+      "query": "/ Ylinilipas Ypinag",
+      "references": [
+        "time / cause",
+        "time / cause of breaking"
+      ]
+    },
+    {
+      "id": "bicol_to_english_syntax_proxy_024",
+      "direction": "bicol_to_english",
+      "source": "Bicol",
+      "target_column": 1,
+      "test_type": "syntax_proxy",
+      "original": "An suhay",
+      "query": "suhay An",
+      "references": [
+        "counterargument"
+      ]
+    },
+    {
+      "id": "bicol_to_english_syntax_proxy_025",
+      "direction": "bicol_to_english",
+      "source": "Bicol",
+      "target_column": 1,
+      "test_type": "syntax_proxy",
+      "original": "An pagmamà",
+      "query": "pagmamà An",
+      "references": [
+        "manner of giving or chewing"
+      ]
+    },
+    {
+      "id": "bicol_to_english_syntax_proxy_026",
+      "direction": "bicol_to_english",
+      "source": "Bicol",
+      "target_column": 1,
+      "test_type": "syntax_proxy",
+      "original": "Si gadot na tauo yan",
+      "query": "Si gadot na yan tauo",
+      "references": [
+        "crowd"
+      ]
+    },
+    {
+      "id": "bicol_to_english_syntax_proxy_027",
+      "direction": "bicol_to_english",
+      "source": "Bicol",
+      "target_column": 1,
+      "test_type": "syntax_proxy",
+      "original": "ypinag (ypinaglanlan)",
+      "query": "(ypinaglanlan) ypinag",
+      "references": [
+        "same kinds grouped"
+      ]
+    },
+    {
+      "id": "bicol_to_english_syntax_proxy_028",
+      "direction": "bicol_to_english",
+      "source": "Bicol",
+      "target_column": 1,
+      "test_type": "syntax_proxy",
+      "original": "Anota natiñgatiñga casana...",
+      "query": "Anota casana... natiñgatiñga",
+      "references": [
+        "avoid doing anything"
+      ]
+    },
+    {
+      "id": "bicol_to_english_syntax_proxy_029",
+      "direction": "bicol_to_english",
+      "source": "Bicol",
+      "target_column": 1,
+      "test_type": "syntax_proxy",
+      "original": "SATOTOROAN NIN LOHÀ",
+      "query": "NIN SATOTOROAN LOHÀ",
+      "references": [
+        "in the heart."
+      ]
+    },
+    {
+      "id": "bicol_to_english_syntax_proxy_030",
+      "direction": "bicol_to_english",
+      "source": "Bicol",
+      "target_column": 1,
+      "test_type": "syntax_proxy",
+      "original": "AN TINUTUGMARAN NIN TOTOONG PAGCA...",
+      "query": "TINUTUGMARAN AN NIN TOTOONG PAGCA...",
+      "references": [
+        "the foundation of a real christian."
+      ]
+    },
+    {
+      "id": "bicol_to_english_syntax_proxy_031",
+      "direction": "bicol_to_english",
+      "source": "Bicol",
+      "target_column": 1,
+      "test_type": "syntax_proxy",
+      "original": "An pagcapasè",
+      "query": "pagcapasè An",
+      "references": [
+        "manner of being dazzled"
+      ]
+    },
+    {
+      "id": "bicol_to_english_syntax_proxy_032",
+      "direction": "bicol_to_english",
+      "source": "Bicol",
+      "target_column": 1,
+      "test_type": "syntax_proxy",
+      "original": "Yna alangbatan",
+      "query": "alangbatan Yna",
+      "references": [
+        "place / corridor"
+      ]
+    },
+    {
+      "id": "bicol_to_english_syntax_proxy_033",
+      "direction": "bicol_to_english",
+      "source": "Bicol",
+      "target_column": 1,
+      "test_type": "syntax_proxy",
+      "original": "Aso Gumihit",
+      "query": "Gumihit Aso",
+      "references": [
+        "when he wrote"
+      ]
+    },
+    {
+      "id": "bicol_to_english_syntax_proxy_034",
+      "direction": "bicol_to_english",
+      "source": "Bicol",
+      "target_column": 1,
+      "test_type": "syntax_proxy",
+      "original": "Nacacatago alang alang",
+      "query": "alang Nacacatago alang",
+      "references": [
+        "avoids being seen"
+      ]
+    },
+    {
+      "id": "bicol_to_english_syntax_proxy_035",
+      "direction": "bicol_to_english",
+      "source": "Bicol",
+      "target_column": 1,
+      "test_type": "syntax_proxy",
+      "original": "Pinaghinapon (Same)",
+      "query": "(Same) Pinaghinapon",
+      "references": [
+        "chain"
+      ]
+    },
+    {
+      "id": "bicol_to_english_syntax_proxy_036",
+      "direction": "bicol_to_english",
+      "source": "Bicol",
+      "target_column": 1,
+      "test_type": "syntax_proxy",
+      "original": "HALAS (hiram)",
+      "query": "(hiram) HALAS",
+      "references": [
+        "conditional asking"
+      ]
+    },
+    {
+      "id": "bicol_to_english_syntax_proxy_037",
+      "direction": "bicol_to_english",
+      "source": "Bicol",
+      "target_column": 1,
+      "test_type": "syntax_proxy",
+      "original": "Homaharoġno na",
+      "query": "na Homaharoġno",
+      "references": [
+        "marriageable person"
+      ]
+    },
+    {
+      "id": "bicol_to_english_syntax_proxy_038",
+      "direction": "bicol_to_english",
+      "source": "Bicol",
+      "target_column": 1,
+      "test_type": "syntax_proxy",
+      "original": "Ano daa",
+      "query": "daa Ano",
+      "references": [
+        "used when someone didn't hear / understand and asks another person"
+      ]
+    },
+    {
+      "id": "bicol_to_english_syntax_proxy_039",
+      "direction": "bicol_to_english",
+      "source": "Bicol",
+      "target_column": 1,
+      "test_type": "syntax_proxy",
+      "original": "ypinag (ypinaglanob)",
+      "query": "(ypinaglanob) ypinag",
+      "references": [
+        "material used / time"
+      ]
+    },
+    {
+      "id": "bicol_to_english_syntax_proxy_040",
+      "direction": "bicol_to_english",
+      "source": "Bicol",
+      "target_column": 1,
+      "test_type": "syntax_proxy",
+      "original": "Nalinao / Nag",
+      "query": "/ Nalinao Nag",
+      "references": [
+        "calming"
+      ]
+    },
+    {
+      "id": "bicol_to_english_syntax_proxy_041",
+      "direction": "bicol_to_english",
+      "source": "Bicol",
+      "target_column": 1,
+      "test_type": "syntax_proxy",
+      "original": "Nalion / Nag",
+      "query": "/ Nalion Nag",
+      "references": [
+        "cleaning"
+      ]
+    },
+    {
+      "id": "bicol_to_english_syntax_proxy_042",
+      "direction": "bicol_to_english",
+      "source": "Bicol",
+      "target_column": 1,
+      "test_type": "syntax_proxy",
+      "original": "Bobong pinggan",
+      "query": "pinggan Bobong",
+      "references": [
+        "cheap-plate"
+      ]
+    },
+    {
+      "id": "bicol_to_english_syntax_proxy_043",
+      "direction": "bicol_to_english",
+      "source": "Bicol",
+      "target_column": 1,
+      "test_type": "syntax_proxy",
+      "original": "Latao (3)",
+      "query": "(3) Latao",
+      "references": [
+        "raft"
+      ]
+    },
+    {
+      "id": "bicol_to_english_syntax_proxy_044",
+      "direction": "bicol_to_english",
+      "source": "Bicol",
+      "target_column": 1,
+      "test_type": "syntax_proxy",
+      "original": "CATOLSOC NA",
+      "query": "NA CATOLSOC",
+      "references": [
+        "stop making noise!"
+      ]
+    },
+    {
+      "id": "bicol_to_english_syntax_proxy_045",
+      "direction": "bicol_to_english",
+      "source": "Bicol",
+      "target_column": 1,
+      "test_type": "syntax_proxy",
+      "original": "Bulidbulid cana",
+      "query": "cana Bulidbulid",
+      "references": [
+        "lying at center of bed / turning"
+      ]
+    },
+    {
+      "id": "bicol_to_english_syntax_proxy_046",
+      "direction": "bicol_to_english",
+      "source": "Bicol",
+      "target_column": 1,
+      "test_type": "syntax_proxy",
+      "original": "Ca day narauog cayning toclosmo",
+      "query": "Ca narauog day cayning toclosmo",
+      "references": [
+        "you have not worked at all"
+      ]
+    },
+    {
+      "id": "bicol_to_english_syntax_proxy_047",
+      "direction": "bicol_to_english",
+      "source": "Bicol",
+      "target_column": 1,
+      "test_type": "syntax_proxy",
+      "original": "Ano pa",
+      "query": "pa Ano",
+      "references": [
+        "what else"
+      ]
+    },
+    {
+      "id": "bicol_to_english_syntax_proxy_048",
+      "direction": "bicol_to_english",
+      "source": "Bicol",
+      "target_column": 1,
+      "test_type": "syntax_proxy",
+      "original": "ogso d",
+      "query": "d ogso",
+      "references": [
+        "push forward"
+      ]
+    },
+    {
+      "id": "bicol_to_english_syntax_proxy_049",
+      "direction": "bicol_to_english",
+      "source": "Bicol",
+      "target_column": 1,
+      "test_type": "syntax_proxy",
+      "original": "HOLAYAN TA",
+      "query": "TA HOLAYAN",
+      "references": [
+        "phrase used when mocking someone."
+      ]
+    },
+    {
+      "id": "bicol_to_english_syntax_proxy_050",
+      "direction": "bicol_to_english",
+      "source": "Bicol",
+      "target_column": 1,
+      "test_type": "syntax_proxy",
+      "original": "Naliliuat na yning naghehelang",
+      "query": "Naliliuat yning na naghehelang",
+      "references": [
+        "the patient is delirious"
+      ]
+    },
+    {
+      "id": "english_to_bicol_spelling_001",
+      "direction": "english_to_bicol",
+      "source": "English",
+      "target_column": 0,
+      "test_type": "spelling",
+      "original": "A nude person.",
+      "query": "A nude persno.",
+      "references": [
+        "hubá"
+      ]
+    },
+    {
+      "id": "english_to_bicol_spelling_002",
+      "direction": "english_to_bicol",
+      "source": "English",
+      "target_column": 0,
+      "test_type": "spelling",
+      "original": "Stairs for Cats / Dogs",
+      "query": "tSairs for Cats / Dogs",
+      "references": [
+        "alogogan"
+      ]
+    },
+    {
+      "id": "english_to_bicol_spelling_003",
+      "direction": "english_to_bicol",
+      "source": "English",
+      "target_column": 0,
+      "test_type": "spelling",
+      "original": "The parents, time, and cause of being orphaned.",
+      "query": "The parents, itme, and cause of being orphaned.",
+      "references": [
+        "yquinayylo"
+      ]
+    },
+    {
+      "id": "english_to_bicol_spelling_004",
+      "direction": "english_to_bicol",
+      "source": "English",
+      "target_column": 0,
+      "test_type": "spelling",
+      "original": "Something being measured",
+      "query": "Sometihng being measured",
+      "references": [
+        "dinodopa",
+        "minamanico",
+        "minamanloyo",
+        "minamanòcsoc",
+        "pinagdopa",
+        "pinagmanico",
+        "pinagmanloyo",
+        "pinagmanòcsoc"
+      ]
+    },
+    {
+      "id": "english_to_bicol_spelling_005",
+      "direction": "english_to_bicol",
+      "source": "English",
+      "target_column": 0,
+      "test_type": "spelling",
+      "original": "Training place",
+      "query": "Trainign place",
+      "references": [
+        "linalangganan"
+      ]
+    },
+    {
+      "id": "english_to_bicol_spelling_006",
+      "direction": "english_to_bicol",
+      "source": "English",
+      "target_column": 0,
+      "test_type": "spelling",
+      "original": "Party told of gossip",
+      "query": "Praty told of gossip",
+      "references": [
+        "hinahatodhatoran",
+        "pinaghatodhatoran"
+      ]
+    },
+    {
+      "id": "english_to_bicol_spelling_007",
+      "direction": "english_to_bicol",
+      "source": "English",
+      "target_column": 0,
+      "test_type": "spelling",
+      "original": "Unhusked rice grains",
+      "query": "Unhusekd rice grains",
+      "references": [
+        "aligas"
+      ]
+    },
+    {
+      "id": "english_to_bicol_spelling_008",
+      "direction": "english_to_bicol",
+      "source": "English",
+      "target_column": 0,
+      "test_type": "spelling",
+      "original": "To provoke/pass unnoticed",
+      "query": "To provoke/pass unnotcied",
+      "references": [
+        "nagpapasaguinonong",
+        "napasasaguinonong",
+        "pasaguinonong"
+      ]
+    },
+    {
+      "id": "english_to_bicol_spelling_009",
+      "direction": "english_to_bicol",
+      "source": "English",
+      "target_column": 0,
+      "test_type": "spelling",
+      "original": "To leave everything blamed on him.",
+      "query": "To leave everything blmaed on him.",
+      "references": [
+        "ypinagnayoyonyonan"
+      ]
+    },
+    {
+      "id": "english_to_bicol_spelling_010",
+      "direction": "english_to_bicol",
+      "source": "English",
+      "target_column": 0,
+      "test_type": "spelling",
+      "original": "childless / uprooted",
+      "query": "hcildless / uprooted",
+      "references": [
+        "poo"
+      ]
+    },
+    {
+      "id": "english_to_bicol_spelling_011",
+      "direction": "english_to_bicol",
+      "source": "English",
+      "target_column": 0,
+      "test_type": "spelling",
+      "original": "Interjection of joy, or oh, how happy I am!",
+      "query": "Interjection of joy, or oh, how hapyp I am!",
+      "references": [
+        "hoto"
+      ]
+    },
+    {
+      "id": "english_to_bicol_spelling_012",
+      "direction": "english_to_bicol",
+      "source": "English",
+      "target_column": 0,
+      "test_type": "spelling",
+      "original": "The one who received the fall",
+      "query": "The noe who received the fall",
+      "references": [
+        "pinagdadapogan"
+      ]
+    },
+    {
+      "id": "english_to_bicol_spelling_013",
+      "direction": "english_to_bicol",
+      "source": "English",
+      "target_column": 0,
+      "test_type": "spelling",
+      "original": "Fart",
+      "query": "aFrt",
+      "references": [
+        "atot"
+      ]
+    },
+    {
+      "id": "english_to_bicol_spelling_014",
+      "direction": "english_to_bicol",
+      "source": "English",
+      "target_column": 0,
+      "test_type": "spelling",
+      "original": "Words, time, and cause of angry talk",
+      "query": "Words, time, and caues of angry talk",
+      "references": [
+        "ypinamomolangpolang",
+        "ypinopolangpolang"
+      ]
+    },
+    {
+      "id": "english_to_bicol_spelling_015",
+      "direction": "english_to_bicol",
+      "source": "English",
+      "target_column": 0,
+      "test_type": "spelling",
+      "original": "Weave knob",
+      "query": "Wevae knob",
+      "references": [
+        "nagalas",
+        "nalaas"
+      ]
+    },
+    {
+      "id": "english_to_bicol_spelling_016",
+      "direction": "english_to_bicol",
+      "source": "English",
+      "target_column": 0,
+      "test_type": "spelling",
+      "original": "Cluster of coconuts ready to grow.",
+      "query": "Clsuter of coconuts ready to grow.",
+      "references": [
+        "tohan"
+      ]
+    },
+    {
+      "id": "english_to_bicol_spelling_017",
+      "direction": "english_to_bicol",
+      "source": "English",
+      "target_column": 0,
+      "test_type": "spelling",
+      "original": "Alternate form for the hit location.",
+      "query": "Alternate form fro the hit location.",
+      "references": [
+        "pinagtumbacan"
+      ]
+    },
+    {
+      "id": "english_to_bicol_spelling_018",
+      "direction": "english_to_bicol",
+      "source": "English",
+      "target_column": 0,
+      "test_type": "spelling",
+      "original": "Remembering",
+      "query": "Reemmbering",
+      "references": [
+        "nacagamata pa aco nin sacong mağna caganac"
+      ]
+    },
+    {
+      "id": "english_to_bicol_spelling_019",
+      "direction": "english_to_bicol",
+      "source": "English",
+      "target_column": 0,
+      "test_type": "spelling",
+      "original": "Threaded-surface",
+      "query": "hTreaded-surface",
+      "references": [
+        "pinagrapgosan",
+        "rinarapgosan"
+      ]
+    },
+    {
+      "id": "english_to_bicol_spelling_020",
+      "direction": "english_to_bicol",
+      "source": "English",
+      "target_column": 0,
+      "test_type": "spelling",
+      "original": "The place where it is done.",
+      "query": "The place hwere it is done.",
+      "references": [
+        "tinotoronan"
+      ]
+    },
+    {
+      "id": "english_to_bicol_spelling_021",
+      "direction": "english_to_bicol",
+      "source": "English",
+      "target_column": 0,
+      "test_type": "spelling",
+      "original": "Whirlwind",
+      "query": "Whirliwnd",
+      "references": [
+        "aliuos-uos",
+        "alosoos",
+        "lisoliso"
+      ]
+    },
+    {
+      "id": "english_to_bicol_spelling_022",
+      "direction": "english_to_bicol",
+      "source": "English",
+      "target_column": 0,
+      "test_type": "spelling",
+      "original": "Time and cause of being affected.",
+      "query": "Time and cause of being afefcted.",
+      "references": [
+        "yquinatumbas"
+      ]
+    },
+    {
+      "id": "english_to_bicol_spelling_023",
+      "direction": "english_to_bicol",
+      "source": "English",
+      "target_column": 0,
+      "test_type": "spelling",
+      "original": "noise of hair or dress",
+      "query": "noise of hair ro dress",
+      "references": [
+        "ragorhò"
+      ]
+    },
+    {
+      "id": "english_to_bicol_spelling_024",
+      "direction": "english_to_bicol",
+      "source": "English",
+      "target_column": 0,
+      "test_type": "spelling",
+      "original": "Spider-web",
+      "query": "Spiedr-web",
+      "references": [
+        "todtod"
+      ]
+    },
+    {
+      "id": "english_to_bicol_spelling_025",
+      "direction": "english_to_bicol",
+      "source": "English",
+      "target_column": 0,
+      "test_type": "spelling",
+      "original": "To take or give or spend something little by little",
+      "query": "To take or give or spend somtehing little by little",
+      "references": [
+        "daguinot"
+      ]
+    },
+    {
+      "id": "english_to_bicol_spelling_026",
+      "direction": "english_to_bicol",
+      "source": "English",
+      "target_column": 0,
+      "test_type": "spelling",
+      "original": "place where tide receded",
+      "query": "place where tide receedd",
+      "references": [
+        "quinocobosan"
+      ]
+    },
+    {
+      "id": "english_to_bicol_spelling_027",
+      "direction": "english_to_bicol",
+      "source": "English",
+      "target_column": 0,
+      "test_type": "spelling",
+      "original": "Person / Place",
+      "query": "Person / lPace",
+      "references": [
+        "dinididiitan",
+        "dinidigtocan",
+        "dinidiládilaan",
+        "liniliodliodan",
+        "pinaganaban",
+        "pinagdidiitan",
+        "pinagdigtocan",
+        "pinagdiládilaan",
+        "pinagliliodliodan",
+        "pinagpapaano anohan"
+      ]
+    },
+    {
+      "id": "english_to_bicol_spelling_028",
+      "direction": "english_to_bicol",
+      "source": "English",
+      "target_column": 0,
+      "test_type": "spelling",
+      "original": "pus/time of producing pus",
+      "query": "pus/time of rpoducing pus",
+      "references": [
+        "yninananà",
+        "ypiĝnanà"
+      ]
+    },
+    {
+      "id": "english_to_bicol_spelling_029",
+      "direction": "english_to_bicol",
+      "source": "English",
+      "target_column": 0,
+      "test_type": "spelling",
+      "original": "hide in mud",
+      "query": "hide ni mud",
+      "references": [
+        "nagodod"
+      ]
+    },
+    {
+      "id": "english_to_bicol_spelling_030",
+      "direction": "english_to_bicol",
+      "source": "English",
+      "target_column": 0,
+      "test_type": "spelling",
+      "original": "Great quantity of baskets filled with rice",
+      "query": "Great quantity of bsakets filled with rice",
+      "references": [
+        "pasadpasad"
+      ]
+    },
+    {
+      "id": "english_to_bicol_spelling_031",
+      "direction": "english_to_bicol",
+      "source": "English",
+      "target_column": 0,
+      "test_type": "spelling",
+      "original": "Something being thus made.",
+      "query": "Something being thus amde.",
+      "references": [
+        "pinayypios"
+      ]
+    },
+    {
+      "id": "english_to_bicol_spelling_032",
+      "direction": "english_to_bicol",
+      "source": "English",
+      "target_column": 0,
+      "test_type": "spelling",
+      "original": "Counted",
+      "query": "Coutned",
+      "references": [
+        "pinagmoro"
+      ]
+    },
+    {
+      "id": "english_to_bicol_spelling_033",
+      "direction": "english_to_bicol",
+      "source": "English",
+      "target_column": 0,
+      "test_type": "spelling",
+      "original": "Time and cause of leaves beginning to wither",
+      "query": "Time and cause of leaves begininng to wither",
+      "references": [
+        "ylinoloyos"
+      ]
+    },
+    {
+      "id": "english_to_bicol_spelling_034",
+      "direction": "english_to_bicol",
+      "source": "English",
+      "target_column": 0,
+      "test_type": "spelling",
+      "original": "Measurement",
+      "query": "Measuerment",
+      "references": [
+        "gagahenan",
+        "licos",
+        "yguinagahen",
+        "ypinagtacos",
+        "ytinatacos"
+      ]
+    },
+    {
+      "id": "english_to_bicol_spelling_035",
+      "direction": "english_to_bicol",
+      "source": "English",
+      "target_column": 0,
+      "test_type": "spelling",
+      "original": "To jump up from where it is being pounded.",
+      "query": "To jupm up from where it is being pounded.",
+      "references": [
+        "nalagsac"
+      ]
+    },
+    {
+      "id": "english_to_bicol_spelling_036",
+      "direction": "english_to_bicol",
+      "source": "English",
+      "target_column": 0,
+      "test_type": "spelling",
+      "original": "That which bursts or jumps out.",
+      "query": "That whcih bursts or jumps out.",
+      "references": [
+        "ytinupric"
+      ]
+    },
+    {
+      "id": "english_to_bicol_spelling_037",
+      "direction": "english_to_bicol",
+      "source": "English",
+      "target_column": 0,
+      "test_type": "spelling",
+      "original": "less vivid",
+      "query": "less viivd",
+      "references": [
+        "napopongsian"
+      ]
+    },
+    {
+      "id": "english_to_bicol_spelling_038",
+      "direction": "english_to_bicol",
+      "source": "English",
+      "target_column": 0,
+      "test_type": "spelling",
+      "original": "He does not like me",
+      "query": "He does ont like me",
+      "references": [
+        "day aco narauog"
+      ]
+    },
+    {
+      "id": "english_to_bicol_spelling_039",
+      "direction": "english_to_bicol",
+      "source": "English",
+      "target_column": 0,
+      "test_type": "spelling",
+      "original": "To remember / To be able",
+      "query": "To remember / To be abel",
+      "references": [
+        "nacacagoromdom"
+      ]
+    },
+    {
+      "id": "english_to_bicol_spelling_040",
+      "direction": "english_to_bicol",
+      "source": "English",
+      "target_column": 0,
+      "test_type": "spelling",
+      "original": "To move head up/down/Nodding",
+      "query": "oT move head up/down/Nodding",
+      "references": [
+        "doğna",
+        "nadoğna",
+        "nagdoğna"
+      ]
+    },
+    {
+      "id": "english_to_bicol_spelling_041",
+      "direction": "english_to_bicol",
+      "source": "English",
+      "target_column": 0,
+      "test_type": "spelling",
+      "original": "small crabs",
+      "query": "small rcabs",
+      "references": [
+        "og̃ama"
+      ]
+    },
+    {
+      "id": "english_to_bicol_spelling_042",
+      "direction": "english_to_bicol",
+      "source": "English",
+      "target_column": 0,
+      "test_type": "spelling",
+      "original": "The place, chest, or vessel where something is thus placed.",
+      "query": "Teh place, chest, or vessel where something is thus placed.",
+      "references": [
+        "hinohonhonan"
+      ]
+    },
+    {
+      "id": "english_to_bicol_spelling_043",
+      "direction": "english_to_bicol",
+      "source": "English",
+      "target_column": 0,
+      "test_type": "spelling",
+      "original": "small measure",
+      "query": "samll measure",
+      "references": [
+        "conding"
+      ]
+    },
+    {
+      "id": "english_to_bicol_spelling_044",
+      "direction": "english_to_bicol",
+      "source": "English",
+      "target_column": 0,
+      "test_type": "spelling",
+      "original": "The same as Dağnat although not frequently used",
+      "query": "The same as Dagnat although not frequently used",
+      "references": [
+        "daya"
+      ]
+    },
+    {
+      "id": "english_to_bicol_spelling_045",
+      "direction": "english_to_bicol",
+      "source": "English",
+      "target_column": 0,
+      "test_type": "spelling",
+      "original": "the one smiling",
+      "query": "the noe smiling",
+      "references": [
+        "g̃ninig̃niritan"
+      ]
+    },
+    {
+      "id": "english_to_bicol_spelling_046",
+      "direction": "english_to_bicol",
+      "source": "English",
+      "target_column": 0,
+      "test_type": "spelling",
+      "original": "Instrument / Time / Cause of narrowing",
+      "query": "Instrument / Time / Cause of narrownig",
+      "references": [
+        "ypinagpigong",
+        "ypinipigong"
+      ]
+    },
+    {
+      "id": "english_to_bicol_spelling_047",
+      "direction": "english_to_bicol",
+      "source": "English",
+      "target_column": 0,
+      "test_type": "spelling",
+      "original": "The place or person grazed.",
+      "query": "The place or person rgazed.",
+      "references": [
+        "napapaguisan"
+      ]
+    },
+    {
+      "id": "english_to_bicol_spelling_048",
+      "direction": "english_to_bicol",
+      "source": "English",
+      "target_column": 0,
+      "test_type": "spelling",
+      "original": "Something being carried away by the claws",
+      "query": "Something being carried away by the lcaws",
+      "references": [
+        "dinadaguit",
+        "pinagdaguit"
+      ]
+    },
+    {
+      "id": "english_to_bicol_spelling_049",
+      "direction": "english_to_bicol",
+      "source": "English",
+      "target_column": 0,
+      "test_type": "spelling",
+      "original": "Being broken",
+      "query": "Being brkoen",
+      "references": [
+        "binabaré",
+        "ninanayocnoc",
+        "pinagrinaracrac",
+        "piĝnayocnoc",
+        "rinaracrac"
+      ]
+    },
+    {
+      "id": "english_to_bicol_spelling_050",
+      "direction": "english_to_bicol",
+      "source": "English",
+      "target_column": 0,
+      "test_type": "spelling",
+      "original": "being transferred",
+      "query": "bieng transferred",
+      "references": [
+        "hinahale",
+        "pinaghale"
+      ]
+    },
+    {
+      "id": "english_to_bicol_syntax_proxy_001",
+      "direction": "english_to_bicol",
+      "source": "English",
+      "target_column": 0,
+      "test_type": "syntax_proxy",
+      "original": "These things accidentally sticking to something else",
+      "query": "These things sticking accidentally to something else",
+      "references": [
+        "nacacadamlo"
+      ]
+    },
+    {
+      "id": "english_to_bicol_syntax_proxy_002",
+      "direction": "english_to_bicol",
+      "source": "English",
+      "target_column": 0,
+      "test_type": "syntax_proxy",
+      "original": "To guess the answer.",
+      "query": "To guess answer. the",
+      "references": [
+        "natood"
+      ]
+    },
+    {
+      "id": "english_to_bicol_syntax_proxy_003",
+      "direction": "english_to_bicol",
+      "source": "English",
+      "target_column": 0,
+      "test_type": "syntax_proxy",
+      "original": "To spit",
+      "query": "spit To",
+      "references": [
+        "naglotab",
+        "nalotab"
+      ]
+    },
+    {
+      "id": "english_to_bicol_syntax_proxy_004",
+      "direction": "english_to_bicol",
+      "source": "English",
+      "target_column": 0,
+      "test_type": "syntax_proxy",
+      "original": "Town / place of going",
+      "query": "Town / of place going",
+      "references": [
+        "pinagcaagan",
+        "quinacaagan"
+      ]
+    },
+    {
+      "id": "english_to_bicol_syntax_proxy_005",
+      "direction": "english_to_bicol",
+      "source": "English",
+      "target_column": 0,
+      "test_type": "syntax_proxy",
+      "original": "deboned fish",
+      "query": "fish deboned",
+      "references": [
+        "naquibit"
+      ]
+    },
+    {
+      "id": "english_to_bicol_syntax_proxy_006",
+      "direction": "english_to_bicol",
+      "source": "English",
+      "target_column": 0,
+      "test_type": "syntax_proxy",
+      "original": "Sound of object inside",
+      "query": "of Sound object inside",
+      "references": [
+        "calaycagay"
+      ]
+    },
+    {
+      "id": "english_to_bicol_syntax_proxy_007",
+      "direction": "english_to_bicol",
+      "source": "English",
+      "target_column": 0,
+      "test_type": "syntax_proxy",
+      "original": "Number seven",
+      "query": "seven Number",
+      "references": [
+        "pito"
+      ]
+    },
+    {
+      "id": "english_to_bicol_syntax_proxy_008",
+      "direction": "english_to_bicol",
+      "source": "English",
+      "target_column": 0,
+      "test_type": "syntax_proxy",
+      "original": "The place where fluid burst.",
+      "query": "The where place fluid burst.",
+      "references": [
+        "tinutuprican"
+      ]
+    },
+    {
+      "id": "english_to_bicol_syntax_proxy_009",
+      "direction": "english_to_bicol",
+      "source": "English",
+      "target_column": 0,
+      "test_type": "syntax_proxy",
+      "original": "Crocodile carrying away prey",
+      "query": "Crocodile away carrying prey",
+      "references": [
+        "nagsibà",
+        "nasibà",
+        "sibà"
+      ]
+    },
+    {
+      "id": "english_to_bicol_syntax_proxy_010",
+      "direction": "english_to_bicol",
+      "source": "English",
+      "target_column": 0,
+      "test_type": "syntax_proxy",
+      "original": "The place or cause for rejoicing",
+      "query": "The or place cause for rejoicing",
+      "references": [
+        "dinadahoyagan",
+        "pinagdahoyagan"
+      ]
+    },
+    {
+      "id": "english_to_bicol_syntax_proxy_011",
+      "direction": "english_to_bicol",
+      "source": "English",
+      "target_column": 0,
+      "test_type": "syntax_proxy",
+      "original": "Space jumped over",
+      "query": "jumped Space over",
+      "references": [
+        "linolocsohan",
+        "pinaglocsohan"
+      ]
+    },
+    {
+      "id": "english_to_bicol_syntax_proxy_012",
+      "direction": "english_to_bicol",
+      "source": "English",
+      "target_column": 0,
+      "test_type": "syntax_proxy",
+      "original": "The rooster/Place",
+      "query": "rooster/Place The",
+      "references": [
+        "dinodohoğnan",
+        "pinagdohoğnan"
+      ]
+    },
+    {
+      "id": "english_to_bicol_syntax_proxy_013",
+      "direction": "english_to_bicol",
+      "source": "English",
+      "target_column": 0,
+      "test_type": "syntax_proxy",
+      "original": "loved person",
+      "query": "person loved",
+      "references": [
+        "naooyayan"
+      ]
+    },
+    {
+      "id": "english_to_bicol_syntax_proxy_014",
+      "direction": "english_to_bicol",
+      "source": "English",
+      "target_column": 0,
+      "test_type": "syntax_proxy",
+      "original": "Animal colored black / white / many colors",
+      "query": "Animal colored black / / white many colors",
+      "references": [
+        "cabang"
+      ]
+    },
+    {
+      "id": "english_to_bicol_syntax_proxy_015",
+      "direction": "english_to_bicol",
+      "source": "English",
+      "target_column": 0,
+      "test_type": "syntax_proxy",
+      "original": "To lift something with a lever or hand.",
+      "query": "lift To something with a lever or hand.",
+      "references": [
+        "ypinagyual"
+      ]
+    },
+    {
+      "id": "english_to_bicol_syntax_proxy_016",
+      "direction": "english_to_bicol",
+      "source": "English",
+      "target_column": 0,
+      "test_type": "syntax_proxy",
+      "original": "News or notice",
+      "query": "News notice or",
+      "references": [
+        "bareta"
+      ]
+    },
+    {
+      "id": "english_to_bicol_syntax_proxy_017",
+      "direction": "english_to_bicol",
+      "source": "English",
+      "target_column": 0,
+      "test_type": "syntax_proxy",
+      "original": "angry child moved",
+      "query": "child angry moved",
+      "references": [
+        "naquiriquisi"
+      ]
+    },
+    {
+      "id": "english_to_bicol_syntax_proxy_018",
+      "direction": "english_to_bicol",
+      "source": "English",
+      "target_column": 0,
+      "test_type": "syntax_proxy",
+      "original": "Town crier",
+      "query": "crier Town",
+      "references": [
+        "paraharubay"
+      ]
+    },
+    {
+      "id": "english_to_bicol_syntax_proxy_019",
+      "direction": "english_to_bicol",
+      "source": "English",
+      "target_column": 0,
+      "test_type": "syntax_proxy",
+      "original": "to double amount",
+      "query": "double to amount",
+      "references": [
+        "naobayeu"
+      ]
+    },
+    {
+      "id": "english_to_bicol_syntax_proxy_020",
+      "direction": "english_to_bicol",
+      "source": "English",
+      "target_column": 0,
+      "test_type": "syntax_proxy",
+      "original": "To reduce water or excavate.",
+      "query": "To reduce water excavate. or",
+      "references": [
+        "naghogad",
+        "nahogad"
+      ]
+    },
+    {
+      "id": "english_to_bicol_syntax_proxy_021",
+      "direction": "english_to_bicol",
+      "source": "English",
+      "target_column": 0,
+      "test_type": "syntax_proxy",
+      "original": "Inside or under something.",
+      "query": "Inside under or something.",
+      "references": [
+        "pinagyrarom"
+      ]
+    },
+    {
+      "id": "english_to_bicol_syntax_proxy_022",
+      "direction": "english_to_bicol",
+      "source": "English",
+      "target_column": 0,
+      "test_type": "syntax_proxy",
+      "original": "Dye / Palm",
+      "query": "/ Dye Palm",
+      "references": [
+        "linama"
+      ]
+    },
+    {
+      "id": "english_to_bicol_syntax_proxy_023",
+      "direction": "english_to_bicol",
+      "source": "English",
+      "target_column": 0,
+      "test_type": "syntax_proxy",
+      "original": "Gold spotted dog",
+      "query": "Gold dog spotted",
+      "references": [
+        "boroc"
+      ]
+    },
+    {
+      "id": "english_to_bicol_syntax_proxy_024",
+      "direction": "english_to_bicol",
+      "source": "English",
+      "target_column": 0,
+      "test_type": "syntax_proxy",
+      "original": "Fruit of a certain tree / pods of trees",
+      "query": "Fruit a of certain tree / pods of trees",
+      "references": [
+        "cayacay"
+      ]
+    },
+    {
+      "id": "english_to_bicol_syntax_proxy_025",
+      "direction": "english_to_bicol",
+      "source": "English",
+      "target_column": 0,
+      "test_type": "syntax_proxy",
+      "original": "to decrease",
+      "query": "decrease to",
+      "references": [
+        "nagonon"
+      ]
+    },
+    {
+      "id": "english_to_bicol_syntax_proxy_026",
+      "direction": "english_to_bicol",
+      "source": "English",
+      "target_column": 0,
+      "test_type": "syntax_proxy",
+      "original": "what he says that belongs to him",
+      "query": "what he that says belongs to him",
+      "references": [
+        "pinasayia",
+        "sinasayia"
+      ]
+    },
+    {
+      "id": "english_to_bicol_syntax_proxy_027",
+      "direction": "english_to_bicol",
+      "source": "English",
+      "target_column": 0,
+      "test_type": "syntax_proxy",
+      "original": "nets disordered",
+      "query": "disordered nets",
+      "references": [
+        "colang (nets)"
+      ]
+    },
+    {
+      "id": "english_to_bicol_syntax_proxy_028",
+      "direction": "english_to_bicol",
+      "source": "English",
+      "target_column": 0,
+      "test_type": "syntax_proxy",
+      "original": "To tighten a bow",
+      "query": "tighten To a bow",
+      "references": [
+        "dolong",
+        "nadolong",
+        "nagdolong"
+      ]
+    },
+    {
+      "id": "english_to_bicol_syntax_proxy_029",
+      "direction": "english_to_bicol",
+      "source": "English",
+      "target_column": 0,
+      "test_type": "syntax_proxy",
+      "original": "instrument of dividing",
+      "query": "instrument dividing of",
+      "references": [
+        "ypinagpopotol"
+      ]
+    },
+    {
+      "id": "english_to_bicol_syntax_proxy_030",
+      "direction": "english_to_bicol",
+      "source": "English",
+      "target_column": 0,
+      "test_type": "syntax_proxy",
+      "original": "thing being brought closer to the other",
+      "query": "thing being brought closer the to other",
+      "references": [
+        "ynoosos"
+      ]
+    },
+    {
+      "id": "english_to_bicol_syntax_proxy_031",
+      "direction": "english_to_bicol",
+      "source": "English",
+      "target_column": 0,
+      "test_type": "syntax_proxy",
+      "original": "Place/Cause of anxiety",
+      "query": "Place/Cause anxiety of",
+      "references": [
+        "nahaharosahosan"
+      ]
+    },
+    {
+      "id": "english_to_bicol_syntax_proxy_032",
+      "direction": "english_to_bicol",
+      "source": "English",
+      "target_column": 0,
+      "test_type": "syntax_proxy",
+      "original": "The person to whom angry words are directed.",
+      "query": "The person to whom angry words directed. are",
+      "references": [
+        "pinagyoyotaman"
+      ]
+    },
+    {
+      "id": "english_to_bicol_syntax_proxy_033",
+      "direction": "english_to_bicol",
+      "source": "English",
+      "target_column": 0,
+      "test_type": "syntax_proxy",
+      "original": "That being toasted",
+      "query": "That toasted being",
+      "references": [
+        "pinagsanglag",
+        "sinasanglag"
+      ]
+    },
+    {
+      "id": "english_to_bicol_syntax_proxy_034",
+      "direction": "english_to_bicol",
+      "source": "English",
+      "target_column": 0,
+      "test_type": "syntax_proxy",
+      "original": "Items brought, time, and cause of visiting a house from another town",
+      "query": "Items brought, and time, cause of visiting a house from another town",
+      "references": [
+        "ypinagsapot",
+        "ysinasapot"
+      ]
+    },
+    {
+      "id": "english_to_bicol_syntax_proxy_035",
+      "direction": "english_to_bicol",
+      "source": "English",
+      "target_column": 0,
+      "test_type": "syntax_proxy",
+      "original": "To shorten what is too long.",
+      "query": "To shorten what is long. too",
+      "references": [
+        "napayeyepot"
+      ]
+    },
+    {
+      "id": "english_to_bicol_syntax_proxy_036",
+      "direction": "english_to_bicol",
+      "source": "English",
+      "target_column": 0,
+      "test_type": "syntax_proxy",
+      "original": "Place or owner of affliction/torment",
+      "query": "or Place owner of affliction/torment",
+      "references": [
+        "pinagsaquitan",
+        "sinasaquitan"
+      ]
+    },
+    {
+      "id": "english_to_bicol_syntax_proxy_037",
+      "direction": "english_to_bicol",
+      "source": "English",
+      "target_column": 0,
+      "test_type": "syntax_proxy",
+      "original": "The place where it is done.",
+      "query": "The place where is it done.",
+      "references": [
+        "tinotoronan"
+      ]
+    },
+    {
+      "id": "english_to_bicol_syntax_proxy_038",
+      "direction": "english_to_bicol",
+      "source": "English",
+      "target_column": 0,
+      "test_type": "syntax_proxy",
+      "original": "Time and cause of sinking.",
+      "query": "and Time cause of sinking.",
+      "references": [
+        "ytinototoc"
+      ]
+    },
+    {
+      "id": "english_to_bicol_syntax_proxy_039",
+      "direction": "english_to_bicol",
+      "source": "English",
+      "target_column": 0,
+      "test_type": "syntax_proxy",
+      "original": "four days from now",
+      "query": "four days now from",
+      "references": [
+        "nurayo"
+      ]
+    },
+    {
+      "id": "english_to_bicol_syntax_proxy_040",
+      "direction": "english_to_bicol",
+      "source": "English",
+      "target_column": 0,
+      "test_type": "syntax_proxy",
+      "original": "Crying as if corpse just brought from house.",
+      "query": "Crying as corpse if just brought from house.",
+      "references": [
+        "garona tinontonan nin bangcay pagparatağnis"
+      ]
+    },
+    {
+      "id": "english_to_bicol_syntax_proxy_041",
+      "direction": "english_to_bicol",
+      "source": "English",
+      "target_column": 0,
+      "test_type": "syntax_proxy",
+      "original": "Time and cause of stopping a job.",
+      "query": "Time and of cause stopping a job.",
+      "references": [
+        "ytinotonong"
+      ]
+    },
+    {
+      "id": "english_to_bicol_syntax_proxy_042",
+      "direction": "english_to_bicol",
+      "source": "English",
+      "target_column": 0,
+      "test_type": "syntax_proxy",
+      "original": "Reason for entering",
+      "query": "Reason entering for",
+      "references": [
+        "linalaog",
+        "pinagpapatolos",
+        "pinagsabang",
+        "pinatotolos",
+        "sinasabang"
+      ]
+    },
+    {
+      "id": "english_to_bicol_syntax_proxy_043",
+      "direction": "english_to_bicol",
+      "source": "English",
+      "target_column": 0,
+      "test_type": "syntax_proxy",
+      "original": "Something being pressed down",
+      "query": "Something pressed being down",
+      "references": [
+        "dinodosoc",
+        "pinagdosoc"
+      ]
+    },
+    {
+      "id": "english_to_bicol_syntax_proxy_044",
+      "direction": "english_to_bicol",
+      "source": "English",
+      "target_column": 0,
+      "test_type": "syntax_proxy",
+      "original": "The place or the harpoons.",
+      "query": "The place the or harpoons.",
+      "references": [
+        "pinagsingpian",
+        "sinisingpian"
+      ]
+    },
+    {
+      "id": "english_to_bicol_syntax_proxy_045",
+      "direction": "english_to_bicol",
+      "source": "English",
+      "target_column": 0,
+      "test_type": "syntax_proxy",
+      "original": "became stutterer",
+      "query": "stutterer became",
+      "references": [
+        "nacamhol"
+      ]
+    },
+    {
+      "id": "english_to_bicol_syntax_proxy_046",
+      "direction": "english_to_bicol",
+      "source": "English",
+      "target_column": 0,
+      "test_type": "syntax_proxy",
+      "original": "Sagging in middle",
+      "query": "Sagging middle in",
+      "references": [
+        "lodyac"
+      ]
+    },
+    {
+      "id": "english_to_bicol_syntax_proxy_047",
+      "direction": "english_to_bicol",
+      "source": "English",
+      "target_column": 0,
+      "test_type": "syntax_proxy",
+      "original": "The strainer",
+      "query": "strainer The",
+      "references": [
+        "sasaraan"
+      ]
+    },
+    {
+      "id": "english_to_bicol_syntax_proxy_048",
+      "direction": "english_to_bicol",
+      "source": "English",
+      "target_column": 0,
+      "test_type": "syntax_proxy",
+      "original": "What is being patiently born.",
+      "query": "is What being patiently born.",
+      "references": [
+        "hinuhuyoan"
+      ]
+    },
+    {
+      "id": "english_to_bicol_syntax_proxy_049",
+      "direction": "english_to_bicol",
+      "source": "English",
+      "target_column": 0,
+      "test_type": "syntax_proxy",
+      "original": "to go from one place to another without stopping",
+      "query": "to go from place one to another without stopping",
+      "references": [
+        "naguaricuadic",
+        "nauaricuadic"
+      ]
+    },
+    {
+      "id": "english_to_bicol_syntax_proxy_050",
+      "direction": "english_to_bicol",
+      "source": "English",
+      "target_column": 0,
+      "test_type": "syntax_proxy",
+      "original": "Instrument, time, and cause of scaring.",
+      "query": "Instrument, time, cause and of scaring.",
+      "references": [
+        "ypinalagopac"
+      ]
+    },
+    {
+      "id": "bicol_to_tagalog_spelling_001",
+      "direction": "bicol_to_tagalog",
+      "source": "Bicol",
+      "target_column": 2,
+      "test_type": "spelling",
+      "original": "Ypinagsosohot",
+      "query": "pYinagsosohot",
+      "references": [
+        "ang pumapasok, oras, at dahilan ng pagpasok sa isang makitid na lugar.",
+        "oras at dahilan ng usok na lumalabas sa palayok o kanin."
+      ]
+    },
+    {
+      "id": "bicol_to_tagalog_spelling_002",
+      "direction": "bicol_to_tagalog",
+      "source": "Bicol",
+      "target_column": 2,
+      "test_type": "spelling",
+      "original": "Naghimaha",
+      "query": "Naghimaah",
+      "references": [
+        "napawi-uhaw"
+      ]
+    },
+    {
+      "id": "bicol_to_tagalog_spelling_003",
+      "direction": "bicol_to_tagalog",
+      "source": "Bicol",
+      "target_column": 2,
+      "test_type": "spelling",
+      "original": "Ysinasanghid",
+      "query": "Ysinasanghdi",
+      "references": [
+        "gintong sinusuri, oras, at dahilan"
+      ]
+    },
+    {
+      "id": "bicol_to_tagalog_spelling_004",
+      "direction": "bicol_to_tagalog",
+      "source": "Bicol",
+      "target_column": 2,
+      "test_type": "spelling",
+      "original": "Pinaghihicogan",
+      "query": "Pinahgihicogan",
+      "references": [
+        "lugar"
+      ]
+    },
+    {
+      "id": "bicol_to_tagalog_spelling_005",
+      "direction": "bicol_to_tagalog",
+      "source": "Bicol",
+      "target_column": 2,
+      "test_type": "spelling",
+      "original": "HINAHALTAN",
+      "query": "HINHAALTAN",
+      "references": [
+        "lugar/tao"
+      ]
+    },
+    {
+      "id": "bicol_to_tagalog_spelling_006",
+      "direction": "bicol_to_tagalog",
+      "source": "Bicol",
+      "target_column": 2,
+      "test_type": "spelling",
+      "original": "Nagguiringguiting",
+      "query": "Nagguiirngguiting",
+      "references": [
+        "gawing paalon-alon ang dulo"
+      ]
+    },
+    {
+      "id": "bicol_to_tagalog_spelling_007",
+      "direction": "bicol_to_tagalog",
+      "source": "Bicol",
+      "target_column": 2,
+      "test_type": "spelling",
+      "original": "Codot",
+      "query": "Codto",
+      "references": [
+        "kurot"
+      ]
+    },
+    {
+      "id": "bicol_to_tagalog_spelling_008",
+      "direction": "bicol_to_tagalog",
+      "source": "Bicol",
+      "target_column": 2,
+      "test_type": "spelling",
+      "original": "Ypinagsosole",
+      "query": "Ypingasosole",
+      "references": [
+        "oras at dahilan ng usbong ng kawayan."
+      ]
+    },
+    {
+      "id": "bicol_to_tagalog_spelling_009",
+      "direction": "bicol_to_tagalog",
+      "source": "Bicol",
+      "target_column": 2,
+      "test_type": "spelling",
+      "original": "Nacacadiquil",
+      "query": "Naccaadiquil",
+      "references": [
+        "madaiti nang hindi sadya"
+      ]
+    },
+    {
+      "id": "bicol_to_tagalog_spelling_010",
+      "direction": "bicol_to_tagalog",
+      "source": "Bicol",
+      "target_column": 2,
+      "test_type": "spelling",
+      "original": "Pinagrayoan",
+      "query": "Pinagryaoan",
+      "references": [
+        "lugar ng paglayo"
+      ]
+    },
+    {
+      "id": "bicol_to_tagalog_spelling_011",
+      "direction": "bicol_to_tagalog",
+      "source": "Bicol",
+      "target_column": 2,
+      "test_type": "spelling",
+      "original": "Binabagbag",
+      "query": "Binabgabag",
+      "references": [
+        "ang barkong pinalulubog"
+      ]
+    },
+    {
+      "id": "bicol_to_tagalog_spelling_012",
+      "direction": "bicol_to_tagalog",
+      "source": "Bicol",
+      "target_column": 2,
+      "test_type": "spelling",
+      "original": "SAEN",
+      "query": "SANE",
+      "references": [
+        "saan"
+      ]
+    },
+    {
+      "id": "bicol_to_tagalog_spelling_013",
+      "direction": "bicol_to_tagalog",
+      "source": "Bicol",
+      "target_column": 2,
+      "test_type": "spelling",
+      "original": "Ypinagpuling",
+      "query": "Ypinagpuilng",
+      "references": [
+        "bagay sa mata"
+      ]
+    },
+    {
+      "id": "bicol_to_tagalog_spelling_014",
+      "direction": "bicol_to_tagalog",
+      "source": "Bicol",
+      "target_column": 2,
+      "test_type": "spelling",
+      "original": "Naglisag",
+      "query": "Ngalisag",
+      "references": [
+        "lumikha ng ingay sa pamamagitan ng paghampas"
+      ]
+    },
+    {
+      "id": "bicol_to_tagalog_spelling_015",
+      "direction": "bicol_to_tagalog",
+      "source": "Bicol",
+      "target_column": 2,
+      "test_type": "spelling",
+      "original": "Pinagahaean",
+      "query": "Pinagaheaan",
+      "references": [
+        "kipitan"
+      ]
+    },
+    {
+      "id": "bicol_to_tagalog_spelling_016",
+      "direction": "bicol_to_tagalog",
+      "source": "Bicol",
+      "target_column": 2,
+      "test_type": "spelling",
+      "original": "Nadiclom",
+      "query": "Nadiclmo",
+      "references": [
+        "nagdidilim"
+      ]
+    },
+    {
+      "id": "bicol_to_tagalog_spelling_017",
+      "direction": "bicol_to_tagalog",
+      "source": "Bicol",
+      "target_column": 2,
+      "test_type": "spelling",
+      "original": "Sinalacat",
+      "query": "Sinalaact",
+      "references": [
+        "tao o bagay na sanhi"
+      ]
+    },
+    {
+      "id": "bicol_to_tagalog_spelling_018",
+      "direction": "bicol_to_tagalog",
+      "source": "Bicol",
+      "target_column": 2,
+      "test_type": "spelling",
+      "original": "Lanod",
+      "query": "Lando",
+      "references": [
+        "palubog"
+      ]
+    },
+    {
+      "id": "bicol_to_tagalog_spelling_019",
+      "direction": "bicol_to_tagalog",
+      "source": "Bicol",
+      "target_column": 2,
+      "test_type": "spelling",
+      "original": "Guinaganit",
+      "query": "uGinaganit",
+      "references": [
+        "binunot"
+      ]
+    },
+    {
+      "id": "bicol_to_tagalog_spelling_020",
+      "direction": "bicol_to_tagalog",
+      "source": "Bicol",
+      "target_column": 2,
+      "test_type": "spelling",
+      "original": "Pinagsapağnan",
+      "query": "Pinagsapagnan",
+      "references": [
+        "ang lugar ng magkulay gamit ang huwad na kulay"
+      ]
+    },
+    {
+      "id": "bicol_to_tagalog_spelling_021",
+      "direction": "bicol_to_tagalog",
+      "source": "Bicol",
+      "target_column": 2,
+      "test_type": "spelling",
+      "original": "pinaguaayan",
+      "query": "pingauaayan",
+      "references": [
+        "lugar o taong nag-aangat ng mga braso"
+      ]
+    },
+    {
+      "id": "bicol_to_tagalog_spelling_022",
+      "direction": "bicol_to_tagalog",
+      "source": "Bicol",
+      "target_column": 2,
+      "test_type": "spelling",
+      "original": "Ytinutuua",
+      "query": "Ytniutuua",
+      "references": [
+        "kasangkapan, oras, at dahilan ng pagtataboy."
+      ]
+    },
+    {
+      "id": "bicol_to_tagalog_spelling_023",
+      "direction": "bicol_to_tagalog",
+      "source": "Bicol",
+      "target_column": 2,
+      "test_type": "spelling",
+      "original": "Dinodocot",
+      "query": "Dindoocot",
+      "references": [
+        "dahilan ng pagpasok ng kamay / oras / dahilan"
+      ]
+    },
+    {
+      "id": "bicol_to_tagalog_spelling_024",
+      "direction": "bicol_to_tagalog",
+      "source": "Bicol",
+      "target_column": 2,
+      "test_type": "spelling",
+      "original": "Pinapare",
+      "query": "iPnapare",
+      "references": [
+        "pinagbubuntunan ng galit"
+      ]
+    },
+    {
+      "id": "bicol_to_tagalog_spelling_025",
+      "direction": "bicol_to_tagalog",
+      "source": "Bicol",
+      "target_column": 2,
+      "test_type": "spelling",
+      "original": "PIOL",
+      "query": "POIL",
+      "references": [
+        "kalang sa sisidlan"
+      ]
+    },
+    {
+      "id": "bicol_to_tagalog_spelling_026",
+      "direction": "bicol_to_tagalog",
+      "source": "Bicol",
+      "target_column": 2,
+      "test_type": "spelling",
+      "original": "Nagguinhaua",
+      "query": "Nagguihnaua",
+      "references": [
+        "huminga"
+      ]
+    },
+    {
+      "id": "bicol_to_tagalog_spelling_027",
+      "direction": "bicol_to_tagalog",
+      "source": "Bicol",
+      "target_column": 2,
+      "test_type": "spelling",
+      "original": "Nagsugmat",
+      "query": "Nasgugmat",
+      "references": [
+        "sumumpong"
+      ]
+    },
+    {
+      "id": "bicol_to_tagalog_spelling_028",
+      "direction": "bicol_to_tagalog",
+      "source": "Bicol",
+      "target_column": 2,
+      "test_type": "spelling",
+      "original": "Nagsangcap",
+      "query": "Nagsnagcap",
+      "references": [
+        "punan o kumpletuhin lahat"
+      ]
+    },
+    {
+      "id": "bicol_to_tagalog_spelling_029",
+      "direction": "bicol_to_tagalog",
+      "source": "Bicol",
+      "target_column": 2,
+      "test_type": "spelling",
+      "original": "Ylinoloğnasi",
+      "query": "Ylinolognasi",
+      "references": [
+        "oras at dahilan",
+        "oras at dahilan ng pamumutla"
+      ]
+    },
+    {
+      "id": "bicol_to_tagalog_spelling_030",
+      "direction": "bicol_to_tagalog",
+      "source": "Bicol",
+      "target_column": 2,
+      "test_type": "spelling",
+      "original": "HAMLANG",
+      "query": "HAMALNG",
+      "references": [
+        "biro/laruan"
+      ]
+    },
+    {
+      "id": "bicol_to_tagalog_spelling_031",
+      "direction": "bicol_to_tagalog",
+      "source": "Bicol",
+      "target_column": 2,
+      "test_type": "spelling",
+      "original": "NARONOT",
+      "query": "NARONTO",
+      "references": [
+        "nadurog"
+      ]
+    },
+    {
+      "id": "bicol_to_tagalog_spelling_032",
+      "direction": "bicol_to_tagalog",
+      "source": "Bicol",
+      "target_column": 2,
+      "test_type": "spelling",
+      "original": "Tinutungcaan",
+      "query": "Tinutungcana",
+      "references": [
+        "lugar kung saan umiidlip ang tao."
+      ]
+    },
+    {
+      "id": "bicol_to_tagalog_spelling_033",
+      "direction": "bicol_to_tagalog",
+      "source": "Bicol",
+      "target_column": 2,
+      "test_type": "spelling",
+      "original": "Nagdaran",
+      "query": "Nagdaarn",
+      "references": [
+        "magpinta"
+      ]
+    },
+    {
+      "id": "bicol_to_tagalog_spelling_034",
+      "direction": "bicol_to_tagalog",
+      "source": "Bicol",
+      "target_column": 2,
+      "test_type": "spelling",
+      "original": "SINOSONGYAUAN",
+      "query": "SINOSONGYUAAN",
+      "references": [
+        "ang bagay na sinisira o pinipinsala."
+      ]
+    },
+    {
+      "id": "bicol_to_tagalog_spelling_035",
+      "direction": "bicol_to_tagalog",
+      "source": "Bicol",
+      "target_column": 2,
+      "test_type": "spelling",
+      "original": "Dinidihog̃nan",
+      "query": "Dinidihognan",
+      "references": [
+        "pinag-amuyan / lugar"
+      ]
+    },
+    {
+      "id": "bicol_to_tagalog_spelling_036",
+      "direction": "bicol_to_tagalog",
+      "source": "Bicol",
+      "target_column": 2,
+      "test_type": "spelling",
+      "original": "Mapagmatong tauo",
+      "query": "Mpaagmatong tauo",
+      "references": [
+        "taong maingat o maalaga"
+      ]
+    },
+    {
+      "id": "bicol_to_tagalog_spelling_037",
+      "direction": "bicol_to_tagalog",
+      "source": "Bicol",
+      "target_column": 2,
+      "test_type": "spelling",
+      "original": "Pinagpapatogbosan",
+      "query": "Pinagappatogbosan",
+      "references": [
+        "ang dinagdagan ng kwento"
+      ]
+    },
+    {
+      "id": "bicol_to_tagalog_spelling_038",
+      "direction": "bicol_to_tagalog",
+      "source": "Bicol",
+      "target_column": 2,
+      "test_type": "spelling",
+      "original": "Pinaggosad",
+      "query": "Pinagogsad",
+      "references": [
+        "ang tinatanggal sa loob"
+      ]
+    },
+    {
+      "id": "bicol_to_tagalog_spelling_039",
+      "direction": "bicol_to_tagalog",
+      "source": "Bicol",
+      "target_column": 2,
+      "test_type": "spelling",
+      "original": "NAHAGOD",
+      "query": "NAHAGDO",
+      "references": [
+        "kiniskis"
+      ]
+    },
+    {
+      "id": "bicol_to_tagalog_spelling_040",
+      "direction": "bicol_to_tagalog",
+      "source": "Bicol",
+      "target_column": 2,
+      "test_type": "spelling",
+      "original": "Pinagpulli",
+      "query": "Pinagpulil",
+      "references": [
+        "dahilan ng pagbabalik"
+      ]
+    },
+    {
+      "id": "bicol_to_tagalog_spelling_041",
+      "direction": "bicol_to_tagalog",
+      "source": "Bicol",
+      "target_column": 2,
+      "test_type": "spelling",
+      "original": "Binoboguay",
+      "query": "Binobgouay",
+      "references": [
+        "bakal na pinupukpok"
+      ]
+    },
+    {
+      "id": "bicol_to_tagalog_spelling_042",
+      "direction": "bicol_to_tagalog",
+      "source": "Bicol",
+      "target_column": 2,
+      "test_type": "spelling",
+      "original": "NATOTOLTOG",
+      "query": "ANTOTOLTOG",
+      "references": [
+        "isang bagay na namasa dahil sa aksidente."
+      ]
+    },
+    {
+      "id": "bicol_to_tagalog_spelling_043",
+      "direction": "bicol_to_tagalog",
+      "source": "Bicol",
+      "target_column": 2,
+      "test_type": "spelling",
+      "original": "Pinagdudumarahan",
+      "query": "iPnagdudumarahan",
+      "references": [
+        "lugar"
+      ]
+    },
+    {
+      "id": "bicol_to_tagalog_spelling_044",
+      "direction": "bicol_to_tagalog",
+      "source": "Bicol",
+      "target_column": 2,
+      "test_type": "spelling",
+      "original": "YSINOSORAGPAC",
+      "query": "YSINOSORGAPAC",
+      "references": [
+        "oras at dahilan ng pagiging magulo ng buhok."
+      ]
+    },
+    {
+      "id": "bicol_to_tagalog_spelling_045",
+      "direction": "bicol_to_tagalog",
+      "source": "Bicol",
+      "target_column": 2,
+      "test_type": "spelling",
+      "original": "BICANG",
+      "query": "BCIANG",
+      "references": [
+        "nakabukaka ang mga binti"
+      ]
+    },
+    {
+      "id": "bicol_to_tagalog_spelling_046",
+      "direction": "bicol_to_tagalog",
+      "source": "Bicol",
+      "target_column": 2,
+      "test_type": "spelling",
+      "original": "Ypinaquiquiubag",
+      "query": "Yipnaquiquiubag",
+      "references": [
+        "bagay na itinatanong"
+      ]
+    },
+    {
+      "id": "bicol_to_tagalog_spelling_047",
+      "direction": "bicol_to_tagalog",
+      "source": "Bicol",
+      "target_column": 2,
+      "test_type": "spelling",
+      "original": "Ypinagsugbò",
+      "query": "Ypinagsugbo",
+      "references": [
+        "ipinamulaklak"
+      ]
+    },
+    {
+      "id": "bicol_to_tagalog_spelling_048",
+      "direction": "bicol_to_tagalog",
+      "source": "Bicol",
+      "target_column": 2,
+      "test_type": "spelling",
+      "original": "SINUSUBLATAN",
+      "query": "SNIUSUBLATAN",
+      "references": [
+        "lugar ng pagkagat ng mga surot o insekto."
+      ]
+    },
+    {
+      "id": "bicol_to_tagalog_spelling_049",
+      "direction": "bicol_to_tagalog",
+      "source": "Bicol",
+      "target_column": 2,
+      "test_type": "spelling",
+      "original": "SINOSOROCAN",
+      "query": "SINOOSROCAN",
+      "references": [
+        "lugar ng paghila ng isda sa taga."
+      ]
+    },
+    {
+      "id": "bicol_to_tagalog_spelling_050",
+      "direction": "bicol_to_tagalog",
+      "source": "Bicol",
+      "target_column": 2,
+      "test_type": "spelling",
+      "original": "Naggoop",
+      "query": "Ngagoop",
+      "references": [
+        "kagatin upang mabasag"
+      ]
+    },
+    {
+      "id": "bicol_to_tagalog_syntax_proxy_001",
+      "direction": "bicol_to_tagalog",
+      "source": "Bicol",
+      "target_column": 2,
+      "test_type": "syntax_proxy",
+      "original": "Linag yó",
+      "query": "yó Linag",
+      "references": [
+        "bagay na sinasabi sa simili at talinghaga."
+      ]
+    },
+    {
+      "id": "bicol_to_tagalog_syntax_proxy_002",
+      "direction": "bicol_to_tagalog",
+      "source": "Bicol",
+      "target_column": 2,
+      "test_type": "syntax_proxy",
+      "original": "GARO (3)",
+      "query": "(3) GARO",
+      "references": [
+        "paamuin-ang-hayop"
+      ]
+    },
+    {
+      "id": "bicol_to_tagalog_syntax_proxy_003",
+      "direction": "bicol_to_tagalog",
+      "source": "Bicol",
+      "target_column": 2,
+      "test_type": "syntax_proxy",
+      "original": "Yliniodliod / Ypinag",
+      "query": "Yliniodliod Ypinag /",
+      "references": [
+        "mata",
+        "mata sa pagtingin"
+      ]
+    },
+    {
+      "id": "bicol_to_tagalog_syntax_proxy_004",
+      "direction": "bicol_to_tagalog",
+      "source": "Bicol",
+      "target_column": 2,
+      "test_type": "syntax_proxy",
+      "original": "Latoc (1)",
+      "query": "(1) Latoc",
+      "references": [
+        "bangko"
+      ]
+    },
+    {
+      "id": "bicol_to_tagalog_syntax_proxy_005",
+      "direction": "bicol_to_tagalog",
+      "source": "Bicol",
+      "target_column": 2,
+      "test_type": "syntax_proxy",
+      "original": "DAYN TUBOD YNING BOBON...",
+      "query": "DAYN YNING TUBOD BOBON...",
+      "references": [
+        "walang anomang dumadaloy mula sa balong ito."
+      ]
+    },
+    {
+      "id": "bicol_to_tagalog_syntax_proxy_006",
+      "direction": "bicol_to_tagalog",
+      "source": "Bicol",
+      "target_column": 2,
+      "test_type": "syntax_proxy",
+      "original": "Si day malilisong boot nin tauo",
+      "query": "Si day boot malilisong nin tauo",
+      "references": [
+        "pahayag: \"naku, ang isang taong hindi marunong makisama!\""
+      ]
+    },
+    {
+      "id": "bicol_to_tagalog_syntax_proxy_007",
+      "direction": "bicol_to_tagalog",
+      "source": "Bicol",
+      "target_column": 2,
+      "test_type": "syntax_proxy",
+      "original": "Pasacatsacat co dihan",
+      "query": "Pasacatsacat dihan co",
+      "references": [
+        "pumunta"
+      ]
+    },
+    {
+      "id": "bicol_to_tagalog_syntax_proxy_008",
+      "direction": "bicol_to_tagalog",
+      "source": "Bicol",
+      "target_column": 2,
+      "test_type": "syntax_proxy",
+      "original": "Nagagalinao co yning saymong boot",
+      "query": "Nagagalinao yning co saymong boot",
+      "references": [
+        "hibang"
+      ]
+    },
+    {
+      "id": "bicol_to_tagalog_syntax_proxy_009",
+      "direction": "bicol_to_tagalog",
+      "source": "Bicol",
+      "target_column": 2,
+      "test_type": "syntax_proxy",
+      "original": "ypinag (ypinaglantay)",
+      "query": "(ypinaglantay) ypinag",
+      "references": [
+        "ipinaghanay"
+      ]
+    },
+    {
+      "id": "bicol_to_tagalog_syntax_proxy_010",
+      "direction": "bicol_to_tagalog",
+      "source": "Bicol",
+      "target_column": 2,
+      "test_type": "syntax_proxy",
+      "original": "AN PAGCAYSI",
+      "query": "PAGCAYSI AN",
+      "references": [
+        "ang paraan ng pag-unawa nang ganito."
+      ]
+    },
+    {
+      "id": "bicol_to_tagalog_syntax_proxy_011",
+      "direction": "bicol_to_tagalog",
+      "source": "Bicol",
+      "target_column": 2,
+      "test_type": "syntax_proxy",
+      "original": "Naaro anohan",
+      "query": "anohan Naaro",
+      "references": [
+        "may hiya"
+      ]
+    },
+    {
+      "id": "bicol_to_tagalog_syntax_proxy_012",
+      "direction": "bicol_to_tagalog",
+      "source": "Bicol",
+      "target_column": 2,
+      "test_type": "syntax_proxy",
+      "original": "Sinasaripsip na tauo",
+      "query": "na Sinasaripsip tauo",
+      "references": [
+        "taong mahusay na nagtatago"
+      ]
+    },
+    {
+      "id": "bicol_to_tagalog_syntax_proxy_013",
+      "direction": "bicol_to_tagalog",
+      "source": "Bicol",
+      "target_column": 2,
+      "test_type": "syntax_proxy",
+      "original": "Yynaaqui aqui",
+      "query": "aqui Yynaaqui",
+      "references": [
+        "oras at dahilan ng pag-asta na parang bata"
+      ]
+    },
+    {
+      "id": "bicol_to_tagalog_syntax_proxy_014",
+      "direction": "bicol_to_tagalog",
+      "source": "Bicol",
+      "target_column": 2,
+      "test_type": "syntax_proxy",
+      "original": "Lima gabos",
+      "query": "gabos Lima",
+      "references": [
+        "lima"
+      ]
+    },
+    {
+      "id": "bicol_to_tagalog_syntax_proxy_015",
+      "direction": "bicol_to_tagalog",
+      "source": "Bicol",
+      "target_column": 2,
+      "test_type": "syntax_proxy",
+      "original": "Pinagaapat apatan",
+      "query": "apatan Pinagaapat",
+      "references": [
+        "lugar ng pagbayo nang apat-apat"
+      ]
+    },
+    {
+      "id": "bicol_to_tagalog_syntax_proxy_016",
+      "direction": "bicol_to_tagalog",
+      "source": "Bicol",
+      "target_column": 2,
+      "test_type": "syntax_proxy",
+      "original": "An pagcahararom",
+      "query": "pagcahararom An",
+      "references": [
+        "ang kalaliman"
+      ]
+    },
+    {
+      "id": "bicol_to_tagalog_syntax_proxy_017",
+      "direction": "bicol_to_tagalog",
+      "source": "Bicol",
+      "target_column": 2,
+      "test_type": "syntax_proxy",
+      "original": "Nalihad / Nag",
+      "query": "/ Nalihad Nag",
+      "references": [
+        "sinasariwa"
+      ]
+    },
+    {
+      "id": "bicol_to_tagalog_syntax_proxy_018",
+      "direction": "bicol_to_tagalog",
+      "source": "Bicol",
+      "target_column": 2,
+      "test_type": "syntax_proxy",
+      "original": "Day nacacatigâ",
+      "query": "nacacatigâ Day",
+      "references": [
+        "hindi natutuyo"
+      ]
+    },
+    {
+      "id": "bicol_to_tagalog_syntax_proxy_019",
+      "direction": "bicol_to_tagalog",
+      "source": "Bicol",
+      "target_column": 2,
+      "test_type": "syntax_proxy",
+      "original": "Baro na tauo",
+      "query": "na Baro tauo",
+      "references": [
+        "taong hangal at matigas ang ulo"
+      ]
+    },
+    {
+      "id": "bicol_to_tagalog_syntax_proxy_020",
+      "direction": "bicol_to_tagalog",
+      "source": "Bicol",
+      "target_column": 2,
+      "test_type": "syntax_proxy",
+      "original": "Togdas na olay",
+      "query": "Togdas olay na",
+      "references": [
+        "salita"
+      ]
+    },
+    {
+      "id": "bicol_to_tagalog_syntax_proxy_021",
+      "direction": "bicol_to_tagalog",
+      "source": "Bicol",
+      "target_column": 2,
+      "test_type": "syntax_proxy",
+      "original": "Saro lamang",
+      "query": "lamang Saro",
+      "references": [
+        "isa"
+      ]
+    },
+    {
+      "id": "bicol_to_tagalog_syntax_proxy_022",
+      "direction": "bicol_to_tagalog",
+      "source": "Bicol",
+      "target_column": 2,
+      "test_type": "syntax_proxy",
+      "original": "Naapat apat",
+      "query": "apat Naapat",
+      "references": [
+        "nagtatrabaho nang apat-apat"
+      ]
+    },
+    {
+      "id": "bicol_to_tagalog_syntax_proxy_023",
+      "direction": "bicol_to_tagalog",
+      "source": "Bicol",
+      "target_column": 2,
+      "test_type": "syntax_proxy",
+      "original": "Ylinilipas / Ypinag",
+      "query": "/ Ylinilipas Ypinag",
+      "references": [
+        "panahon / sanhi",
+        "panahon / sanhi ng pagkasira"
+      ]
+    },
+    {
+      "id": "bicol_to_tagalog_syntax_proxy_024",
+      "direction": "bicol_to_tagalog",
+      "source": "Bicol",
+      "target_column": 2,
+      "test_type": "syntax_proxy",
+      "original": "An suhay",
+      "query": "suhay An",
+      "references": [
+        "pagtutol"
+      ]
+    },
+    {
+      "id": "bicol_to_tagalog_syntax_proxy_025",
+      "direction": "bicol_to_tagalog",
+      "source": "Bicol",
+      "target_column": 2,
+      "test_type": "syntax_proxy",
+      "original": "An pagmamà",
+      "query": "pagmamà An",
+      "references": [
+        "paraan ng pagbibigay o pag-nga-nga"
+      ]
+    },
+    {
+      "id": "bicol_to_tagalog_syntax_proxy_026",
+      "direction": "bicol_to_tagalog",
+      "source": "Bicol",
+      "target_column": 2,
+      "test_type": "syntax_proxy",
+      "original": "Si gadot na tauo yan",
+      "query": "Si gadot na yan tauo",
+      "references": [
+        "katipunan"
+      ]
+    },
+    {
+      "id": "bicol_to_tagalog_syntax_proxy_027",
+      "direction": "bicol_to_tagalog",
+      "source": "Bicol",
+      "target_column": 2,
+      "test_type": "syntax_proxy",
+      "original": "ypinag (ypinaglanlan)",
+      "query": "(ypinaglanlan) ypinag",
+      "references": [
+        "ipinagpangkat"
+      ]
+    },
+    {
+      "id": "bicol_to_tagalog_syntax_proxy_028",
+      "direction": "bicol_to_tagalog",
+      "source": "Bicol",
+      "target_column": 2,
+      "test_type": "syntax_proxy",
+      "original": "Anota natiñgatiñga casana...",
+      "query": "Anota casana... natiñgatiñga",
+      "references": [
+        "nagpapakasaya ka lang"
+      ]
+    },
+    {
+      "id": "bicol_to_tagalog_syntax_proxy_029",
+      "direction": "bicol_to_tagalog",
+      "source": "Bicol",
+      "target_column": 2,
+      "test_type": "syntax_proxy",
+      "original": "SATOTOROAN NIN LOHÀ",
+      "query": "NIN SATOTOROAN LOHÀ",
+      "references": [
+        "sa loob ng puso."
+      ]
+    },
+    {
+      "id": "bicol_to_tagalog_syntax_proxy_030",
+      "direction": "bicol_to_tagalog",
+      "source": "Bicol",
+      "target_column": 2,
+      "test_type": "syntax_proxy",
+      "original": "AN TINUTUGMARAN NIN TOTOONG PAGCA...",
+      "query": "TINUTUGMARAN AN NIN TOTOONG PAGCA...",
+      "references": [
+        "ang pundasyon ng isang tunay na kristiyano."
+      ]
+    },
+    {
+      "id": "bicol_to_tagalog_syntax_proxy_031",
+      "direction": "bicol_to_tagalog",
+      "source": "Bicol",
+      "target_column": 2,
+      "test_type": "syntax_proxy",
+      "original": "An pagcapasè",
+      "query": "pagcapasè An",
+      "references": [
+        "paraan ng pagkasilaw"
+      ]
+    },
+    {
+      "id": "bicol_to_tagalog_syntax_proxy_032",
+      "direction": "bicol_to_tagalog",
+      "source": "Bicol",
+      "target_column": 2,
+      "test_type": "syntax_proxy",
+      "original": "Yna alangbatan",
+      "query": "alangbatan Yna",
+      "references": [
+        "lugar / koridor"
+      ]
+    },
+    {
+      "id": "bicol_to_tagalog_syntax_proxy_033",
+      "direction": "bicol_to_tagalog",
+      "source": "Bicol",
+      "target_column": 2,
+      "test_type": "syntax_proxy",
+      "original": "Aso Gumihit",
+      "query": "Gumihit Aso",
+      "references": [
+        "nang siya ay nagsusulat"
+      ]
+    },
+    {
+      "id": "bicol_to_tagalog_syntax_proxy_034",
+      "direction": "bicol_to_tagalog",
+      "source": "Bicol",
+      "target_column": 2,
+      "test_type": "syntax_proxy",
+      "original": "Nacacatago alang alang",
+      "query": "alang Nacacatago alang",
+      "references": [
+        "iniiwasan makita"
+      ]
+    },
+    {
+      "id": "bicol_to_tagalog_syntax_proxy_035",
+      "direction": "bicol_to_tagalog",
+      "source": "Bicol",
+      "target_column": 2,
+      "test_type": "syntax_proxy",
+      "original": "Pinaghinapon (Same)",
+      "query": "(Same) Pinaghinapon",
+      "references": [
+        "kuwintas"
+      ]
+    },
+    {
+      "id": "bicol_to_tagalog_syntax_proxy_036",
+      "direction": "bicol_to_tagalog",
+      "source": "Bicol",
+      "target_column": 2,
+      "test_type": "syntax_proxy",
+      "original": "HALAS (hiram)",
+      "query": "(hiram) HALAS",
+      "references": [
+        "paghingi na may kapalit"
+      ]
+    },
+    {
+      "id": "bicol_to_tagalog_syntax_proxy_037",
+      "direction": "bicol_to_tagalog",
+      "source": "Bicol",
+      "target_column": 2,
+      "test_type": "syntax_proxy",
+      "original": "Homaharoġno na",
+      "query": "na Homaharoġno",
+      "references": [
+        "taong nasa edad na mag-asawa"
+      ]
+    },
+    {
+      "id": "bicol_to_tagalog_syntax_proxy_038",
+      "direction": "bicol_to_tagalog",
+      "source": "Bicol",
+      "target_column": 2,
+      "test_type": "syntax_proxy",
+      "original": "Ano daa",
+      "query": "daa Ano",
+      "references": [
+        "gamit kapag hindi narinig o naunawaan ang sinabi at nagtanong muli"
+      ]
+    },
+    {
+      "id": "bicol_to_tagalog_syntax_proxy_039",
+      "direction": "bicol_to_tagalog",
+      "source": "Bicol",
+      "target_column": 2,
+      "test_type": "syntax_proxy",
+      "original": "ypinag (ypinaglanob)",
+      "query": "(ypinaglanob) ypinag",
+      "references": [
+        "ipinangdingding"
+      ]
+    },
+    {
+      "id": "bicol_to_tagalog_syntax_proxy_040",
+      "direction": "bicol_to_tagalog",
+      "source": "Bicol",
+      "target_column": 2,
+      "test_type": "syntax_proxy",
+      "original": "Nalinao / Nag",
+      "query": "/ Nalinao Nag",
+      "references": [
+        "lumilinaw"
+      ]
+    },
+    {
+      "id": "bicol_to_tagalog_syntax_proxy_041",
+      "direction": "bicol_to_tagalog",
+      "source": "Bicol",
+      "target_column": 2,
+      "test_type": "syntax_proxy",
+      "original": "Nalion / Nag",
+      "query": "/ Nalion Nag",
+      "references": [
+        "naglilinis"
+      ]
+    },
+    {
+      "id": "bicol_to_tagalog_syntax_proxy_042",
+      "direction": "bicol_to_tagalog",
+      "source": "Bicol",
+      "target_column": 2,
+      "test_type": "syntax_proxy",
+      "original": "Bobong pinggan",
+      "query": "pinggan Bobong",
+      "references": [
+        "hamak-na-pinggan"
+      ]
+    },
+    {
+      "id": "bicol_to_tagalog_syntax_proxy_043",
+      "direction": "bicol_to_tagalog",
+      "source": "Bicol",
+      "target_column": 2,
+      "test_type": "syntax_proxy",
+      "original": "Latao (3)",
+      "query": "(3) Latao",
+      "references": [
+        "balsa"
+      ]
+    },
+    {
+      "id": "bicol_to_tagalog_syntax_proxy_044",
+      "direction": "bicol_to_tagalog",
+      "source": "Bicol",
+      "target_column": 2,
+      "test_type": "syntax_proxy",
+      "original": "CATOLSOC NA",
+      "query": "NA CATOLSOC",
+      "references": [
+        "tumahimik ka na! / huwag ka nang maingay!"
+      ]
+    },
+    {
+      "id": "bicol_to_tagalog_syntax_proxy_045",
+      "direction": "bicol_to_tagalog",
+      "source": "Bicol",
+      "target_column": 2,
+      "test_type": "syntax_proxy",
+      "original": "Bulidbulid cana",
+      "query": "cana Bulidbulid",
+      "references": [
+        "nakahiga sa gitna / pabalik-balik"
+      ]
+    },
+    {
+      "id": "bicol_to_tagalog_syntax_proxy_046",
+      "direction": "bicol_to_tagalog",
+      "source": "Bicol",
+      "target_column": 2,
+      "test_type": "syntax_proxy",
+      "original": "Ca day narauog cayning toclosmo",
+      "query": "Ca narauog day cayning toclosmo",
+      "references": [
+        "hindi ka nagtrabaho kahit kaunti"
+      ]
+    },
+    {
+      "id": "bicol_to_tagalog_syntax_proxy_047",
+      "direction": "bicol_to_tagalog",
+      "source": "Bicol",
+      "target_column": 2,
+      "test_type": "syntax_proxy",
+      "original": "Ano pa",
+      "query": "pa Ano",
+      "references": [
+        "ano pa"
+      ]
+    },
+    {
+      "id": "bicol_to_tagalog_syntax_proxy_048",
+      "direction": "bicol_to_tagalog",
+      "source": "Bicol",
+      "target_column": 2,
+      "test_type": "syntax_proxy",
+      "original": "ogso d",
+      "query": "d ogso",
+      "references": [
+        "itulak"
+      ]
+    },
+    {
+      "id": "bicol_to_tagalog_syntax_proxy_049",
+      "direction": "bicol_to_tagalog",
+      "source": "Bicol",
+      "target_column": 2,
+      "test_type": "syntax_proxy",
+      "original": "HOLAYAN TA",
+      "query": "TA HOLAYAN",
+      "references": [
+        "pariralang ginagamit kapag nanunuya ng tao."
+      ]
+    },
+    {
+      "id": "bicol_to_tagalog_syntax_proxy_050",
+      "direction": "bicol_to_tagalog",
+      "source": "Bicol",
+      "target_column": 2,
+      "test_type": "syntax_proxy",
+      "original": "Naliliuat na yning naghehelang",
+      "query": "Naliliuat yning na naghehelang",
+      "references": [
+        "ang pasyente ay nagdedeliryo"
+      ]
+    },
+    {
+      "id": "tagalog_to_bicol_spelling_001",
+      "direction": "tagalog_to_bicol",
+      "source": "Tagalog",
+      "target_column": 0,
+      "test_type": "spelling",
+      "original": "Ang sinasabi o inilalabas.",
+      "query": "Ang sinasabi o inlialabas.",
+      "references": [
+        "yquinasosognao"
+      ]
+    },
+    {
+      "id": "tagalog_to_bicol_spelling_002",
+      "direction": "tagalog_to_bicol",
+      "source": "Tagalog",
+      "target_column": 0,
+      "test_type": "spelling",
+      "original": "nana/oras ng pagkakaroon ng nana",
+      "query": "nana/oras ng pakgakaroon ng nana",
+      "references": [
+        "yninananà",
+        "ypiĝnanà"
+      ]
+    },
+    {
+      "id": "tagalog_to_bicol_spelling_003",
+      "direction": "tagalog_to_bicol",
+      "source": "Tagalog",
+      "target_column": 0,
+      "test_type": "spelling",
+      "original": "Ituktok, oras, at dahilan ng pagyabong ng dahon",
+      "query": "Ituktok, oras, at dahilan gn pagyabong ng dahon",
+      "references": [
+        "ypinagsariğnaya",
+        "ysinasariğnaya"
+      ]
+    },
+    {
+      "id": "tagalog_to_bicol_spelling_004",
+      "direction": "tagalog_to_bicol",
+      "source": "Tagalog",
+      "target_column": 0,
+      "test_type": "spelling",
+      "original": "eklipse araw",
+      "query": "kelipse araw",
+      "references": [
+        "colop"
+      ]
+    },
+    {
+      "id": "tagalog_to_bicol_spelling_005",
+      "direction": "tagalog_to_bicol",
+      "source": "Tagalog",
+      "target_column": 0,
+      "test_type": "spelling",
+      "original": "Hininto",
+      "query": "iHninto",
+      "references": [
+        "narorotas"
+      ]
+    },
+    {
+      "id": "tagalog_to_bicol_spelling_006",
+      "direction": "tagalog_to_bicol",
+      "source": "Tagalog",
+      "target_column": 0,
+      "test_type": "spelling",
+      "original": "Ang pagkapit ng amoy o sebong ito sa isang bagay",
+      "query": "Ang pagkapit ng amoy o sebong ito sa isang bgaay",
+      "references": [
+        "nadamló",
+        "nagdamló"
+      ]
+    },
+    {
+      "id": "tagalog_to_bicol_spelling_007",
+      "direction": "tagalog_to_bicol",
+      "source": "Tagalog",
+      "target_column": 0,
+      "test_type": "spelling",
+      "original": "Ang lugar o ang naiwan",
+      "query": "Ang lugar o nag naiwan",
+      "references": [
+        "pinagpaopao",
+        "pinagpaopauan",
+        "pinapaopao",
+        "pinapaopauan"
+      ]
+    },
+    {
+      "id": "tagalog_to_bicol_spelling_008",
+      "direction": "tagalog_to_bicol",
+      "source": "Tagalog",
+      "target_column": 0,
+      "test_type": "spelling",
+      "original": "bagay na mali ang pagkakalabas",
+      "query": "bagay na mali ang pagkaklaabas",
+      "references": [
+        "uirauod"
+      ]
+    },
+    {
+      "id": "tagalog_to_bicol_spelling_009",
+      "direction": "tagalog_to_bicol",
+      "source": "Tagalog",
+      "target_column": 0,
+      "test_type": "spelling",
+      "original": "Maligo",
+      "query": "Mlaigo",
+      "references": [
+        "nagparigos",
+        "naparigos",
+        "parigos"
+      ]
+    },
+    {
+      "id": "tagalog_to_bicol_spelling_010",
+      "direction": "tagalog_to_bicol",
+      "source": "Tagalog",
+      "target_column": 0,
+      "test_type": "spelling",
+      "original": "Ang lugar kung saan dumadaloy ang tubig",
+      "query": "Ang ulgar kung saan dumadaloy ang tubig",
+      "references": [
+        "dinadalihigan",
+        "pinagdalihigan"
+      ]
+    },
+    {
+      "id": "tagalog_to_bicol_spelling_011",
+      "direction": "tagalog_to_bicol",
+      "source": "Tagalog",
+      "target_column": 0,
+      "test_type": "spelling",
+      "original": "nagdekorasyon",
+      "query": "nagdekorasoyn",
+      "references": [
+        "nacanà",
+        "nagcanà",
+        "nagragaraga",
+        "naragaraga"
+      ]
+    },
+    {
+      "id": "tagalog_to_bicol_spelling_012",
+      "direction": "tagalog_to_bicol",
+      "source": "Tagalog",
+      "target_column": 0,
+      "test_type": "spelling",
+      "original": "Katunayan",
+      "query": "Katunyaan",
+      "references": [
+        "yquinahihimon"
+      ]
+    },
+    {
+      "id": "tagalog_to_bicol_spelling_013",
+      "direction": "tagalog_to_bicol",
+      "source": "Tagalog",
+      "target_column": 0,
+      "test_type": "spelling",
+      "original": "Suporta sa sahig na wala sa mga haligi.",
+      "query": "Suporta sa sahig na wala sa gma haligi.",
+      "references": [
+        "panalgan"
+      ]
+    },
+    {
+      "id": "tagalog_to_bicol_spelling_014",
+      "direction": "tagalog_to_bicol",
+      "source": "Tagalog",
+      "target_column": 0,
+      "test_type": "spelling",
+      "original": "Matandang tao o hayop",
+      "query": "Matandang ato o hayop",
+      "references": [
+        "magurang"
+      ]
+    },
+    {
+      "id": "tagalog_to_bicol_spelling_015",
+      "direction": "tagalog_to_bicol",
+      "source": "Tagalog",
+      "target_column": 0,
+      "test_type": "spelling",
+      "original": "Ang lugar ng ang butas o ang nasa loob nito.",
+      "query": "Ang lugar ng ang butas o nag nasa loob nito.",
+      "references": [
+        "pinagsilsigan",
+        "sinisilsigan"
+      ]
+    },
+    {
+      "id": "tagalog_to_bicol_spelling_016",
+      "direction": "tagalog_to_bicol",
+      "source": "Tagalog",
+      "target_column": 0,
+      "test_type": "spelling",
+      "original": "Umulan at kumulog nang sabay",
+      "query": "Umulan at kumulog nang asbay",
+      "references": [
+        "nadagarhá",
+        "nagdagarhá"
+      ]
+    },
+    {
+      "id": "tagalog_to_bicol_spelling_017",
+      "direction": "tagalog_to_bicol",
+      "source": "Tagalog",
+      "target_column": 0,
+      "test_type": "spelling",
+      "original": "Maghimay",
+      "query": "Maghiamy",
+      "references": [
+        "hinglas"
+      ]
+    },
+    {
+      "id": "tagalog_to_bicol_spelling_018",
+      "direction": "tagalog_to_bicol",
+      "source": "Tagalog",
+      "target_column": 0,
+      "test_type": "spelling",
+      "original": "Pinutol gamit ang kuko",
+      "query": "Pinutol gamit ang kkuo",
+      "references": [
+        "guinogotol",
+        "pinaggotol"
+      ]
+    },
+    {
+      "id": "tagalog_to_bicol_spelling_019",
+      "direction": "tagalog_to_bicol",
+      "source": "Tagalog",
+      "target_column": 0,
+      "test_type": "spelling",
+      "original": "taong inuutusan",
+      "query": "taong inuutusna",
+      "references": [
+        "pinapapaualauala"
+      ]
+    },
+    {
+      "id": "tagalog_to_bicol_spelling_020",
+      "direction": "tagalog_to_bicol",
+      "source": "Tagalog",
+      "target_column": 0,
+      "test_type": "spelling",
+      "original": "Ang telang may ganitong mga depekto",
+      "query": "Ang telang may ganitong mga deepkto",
+      "references": [
+        "nadadalodagan"
+      ]
+    },
+    {
+      "id": "tagalog_to_bicol_spelling_021",
+      "direction": "tagalog_to_bicol",
+      "source": "Tagalog",
+      "target_column": 0,
+      "test_type": "spelling",
+      "original": "Bagay na tinatahi",
+      "query": "Bagay na tintaahi",
+      "references": [
+        "pinagtahè",
+        "tinatahè"
+      ]
+    },
+    {
+      "id": "tagalog_to_bicol_spelling_022",
+      "direction": "tagalog_to_bicol",
+      "source": "Tagalog",
+      "target_column": 0,
+      "test_type": "spelling",
+      "original": "Panahon ng tapis",
+      "query": "Panahon ng atpis",
+      "references": [
+        "ypinaglauas"
+      ]
+    },
+    {
+      "id": "tagalog_to_bicol_spelling_023",
+      "direction": "tagalog_to_bicol",
+      "source": "Tagalog",
+      "target_column": 0,
+      "test_type": "spelling",
+      "original": "Suklay.",
+      "query": "Suklya.",
+      "references": [
+        "sorod"
+      ]
+    },
+    {
+      "id": "tagalog_to_bicol_spelling_024",
+      "direction": "tagalog_to_bicol",
+      "source": "Tagalog",
+      "target_column": 0,
+      "test_type": "spelling",
+      "original": "Magtinapay",
+      "query": "Magtinapya",
+      "references": [
+        "nagtiğnob"
+      ]
+    },
+    {
+      "id": "tagalog_to_bicol_spelling_025",
+      "direction": "tagalog_to_bicol",
+      "source": "Tagalog",
+      "target_column": 0,
+      "test_type": "spelling",
+      "original": "Manatili habambuhay",
+      "query": "Mantaili habambuhay",
+      "references": [
+        "nagcacagurang"
+      ]
+    },
+    {
+      "id": "tagalog_to_bicol_spelling_026",
+      "direction": "tagalog_to_bicol",
+      "source": "Tagalog",
+      "target_column": 0,
+      "test_type": "spelling",
+      "original": "Bangka na may barnakulo",
+      "query": "Bangka na mya barnakulo",
+      "references": [
+        "pinagaaramay"
+      ]
+    },
+    {
+      "id": "tagalog_to_bicol_spelling_027",
+      "direction": "tagalog_to_bicol",
+      "source": "Tagalog",
+      "target_column": 0,
+      "test_type": "spelling",
+      "original": "Ikinakati",
+      "query": "Ikinakait",
+      "references": [
+        "yguinagahang"
+      ]
+    },
+    {
+      "id": "tagalog_to_bicol_spelling_028",
+      "direction": "tagalog_to_bicol",
+      "source": "Tagalog",
+      "target_column": 0,
+      "test_type": "spelling",
+      "original": "Utusang maglagay ng bagay",
+      "query": "Utusang maglagay ng abgay",
+      "references": [
+        "napacacahang"
+      ]
+    },
+    {
+      "id": "tagalog_to_bicol_spelling_029",
+      "direction": "tagalog_to_bicol",
+      "source": "Tagalog",
+      "target_column": 0,
+      "test_type": "spelling",
+      "original": "Binabae",
+      "query": "iBnabae",
+      "references": [
+        "binababaye"
+      ]
+    },
+    {
+      "id": "tagalog_to_bicol_spelling_030",
+      "direction": "tagalog_to_bicol",
+      "source": "Tagalog",
+      "target_column": 0,
+      "test_type": "spelling",
+      "original": "Oras at dahilan ng pagtatakip",
+      "query": "Oras at dahilan ng pagtatakpi",
+      "references": [
+        "ypinagdangyap"
+      ]
+    },
+    {
+      "id": "tagalog_to_bicol_spelling_031",
+      "direction": "tagalog_to_bicol",
+      "source": "Tagalog",
+      "target_column": 0,
+      "test_type": "spelling",
+      "original": "sanhi ng paghanga",
+      "query": "sahni ng paghanga",
+      "references": [
+        "nacananalé"
+      ]
+    },
+    {
+      "id": "tagalog_to_bicol_spelling_032",
+      "direction": "tagalog_to_bicol",
+      "source": "Tagalog",
+      "target_column": 0,
+      "test_type": "spelling",
+      "original": "Ang taong tinalo",
+      "query": "Ang taong tinlao",
+      "references": [
+        "dinadağnin",
+        "pinagdağnin"
+      ]
+    },
+    {
+      "id": "tagalog_to_bicol_spelling_033",
+      "direction": "tagalog_to_bicol",
+      "source": "Tagalog",
+      "target_column": 0,
+      "test_type": "spelling",
+      "original": "tapak/sipa",
+      "query": "tapka/sipa",
+      "references": [
+        "cosay"
+      ]
+    },
+    {
+      "id": "tagalog_to_bicol_spelling_034",
+      "direction": "tagalog_to_bicol",
+      "source": "Tagalog",
+      "target_column": 0,
+      "test_type": "spelling",
+      "original": "Ang dako o lugar.",
+      "query": "Ang adko o lugar.",
+      "references": [
+        "pinatutugacan",
+        "tinutublean",
+        "tinutuboran",
+        "tinutugacan",
+        "tinutugdaan",
+        "tinutugrağnican",
+        "tinutugsaran",
+        "tinutulagan"
+      ]
+    },
+    {
+      "id": "tagalog_to_bicol_spelling_035",
+      "direction": "tagalog_to_bicol",
+      "source": "Tagalog",
+      "target_column": 0,
+      "test_type": "spelling",
+      "original": "pagsabit ng damit",
+      "query": "pagasbit ng damit",
+      "references": [
+        "sağnot"
+      ]
+    },
+    {
+      "id": "tagalog_to_bicol_spelling_036",
+      "direction": "tagalog_to_bicol",
+      "source": "Tagalog",
+      "target_column": 0,
+      "test_type": "spelling",
+      "original": "Ang tao o lugar.",
+      "query": "nAg tao o lugar.",
+      "references": [
+        "linalabuyan",
+        "linalagohan",
+        "pinalpalağuaan"
+      ]
+    },
+    {
+      "id": "tagalog_to_bicol_spelling_037",
+      "direction": "tagalog_to_bicol",
+      "source": "Tagalog",
+      "target_column": 0,
+      "test_type": "spelling",
+      "original": "ginamit pambaluktot sa pagbaluktot",
+      "query": "ginamit pamblauktot sa pagbaluktot",
+      "references": [
+        "yquinacauot"
+      ]
+    },
+    {
+      "id": "tagalog_to_bicol_spelling_038",
+      "direction": "tagalog_to_bicol",
+      "source": "Tagalog",
+      "target_column": 0,
+      "test_type": "spelling",
+      "original": "itaas na labi",
+      "query": "itasa na labi",
+      "references": [
+        "gnimot"
+      ]
+    },
+    {
+      "id": "tagalog_to_bicol_spelling_039",
+      "direction": "tagalog_to_bicol",
+      "source": "Tagalog",
+      "target_column": 0,
+      "test_type": "spelling",
+      "original": "sinasabing kasinungalingan",
+      "query": "sinasabing ksainungalingan",
+      "references": [
+        "pinagputic",
+        "pinuputic"
+      ]
+    },
+    {
+      "id": "tagalog_to_bicol_spelling_040",
+      "direction": "tagalog_to_bicol",
+      "source": "Tagalog",
+      "target_column": 0,
+      "test_type": "spelling",
+      "original": "Gumawa ng palamuti",
+      "query": "Gmuawa ng palamuti",
+      "references": [
+        "narauaraua"
+      ]
+    },
+    {
+      "id": "tagalog_to_bicol_spelling_041",
+      "direction": "tagalog_to_bicol",
+      "source": "Tagalog",
+      "target_column": 0,
+      "test_type": "spelling",
+      "original": "Ginagapasan",
+      "query": "Ginagaapsan",
+      "references": [
+        "hinaharaan"
+      ]
+    },
+    {
+      "id": "tagalog_to_bicol_spelling_042",
+      "direction": "tagalog_to_bicol",
+      "source": "Tagalog",
+      "target_column": 0,
+      "test_type": "spelling",
+      "original": "Isang bagay na pinapasa o pinayuyupi nang ganito.",
+      "query": "Isagn bagay na pinapasa o pinayuyupi nang ganito.",
+      "references": [
+        "tinotoltog"
+      ]
+    },
+    {
+      "id": "tagalog_to_bicol_spelling_043",
+      "direction": "tagalog_to_bicol",
+      "source": "Tagalog",
+      "target_column": 0,
+      "test_type": "spelling",
+      "original": "dumoble ang halaga",
+      "query": "dumoble agn halaga",
+      "references": [
+        "naobayeu"
+      ]
+    },
+    {
+      "id": "tagalog_to_bicol_spelling_044",
+      "direction": "tagalog_to_bicol",
+      "source": "Tagalog",
+      "target_column": 0,
+      "test_type": "spelling",
+      "original": "Ipinagdalisay",
+      "query": "Ipinagdalsiay",
+      "references": [
+        "yguinagağnob"
+      ]
+    },
+    {
+      "id": "tagalog_to_bicol_spelling_045",
+      "direction": "tagalog_to_bicol",
+      "source": "Tagalog",
+      "target_column": 0,
+      "test_type": "spelling",
+      "original": "Saluhin / Idiskarga",
+      "query": "Saluhin / dIiskarga",
+      "references": [
+        "gauad"
+      ]
+    },
+    {
+      "id": "tagalog_to_bicol_spelling_046",
+      "direction": "tagalog_to_bicol",
+      "source": "Tagalog",
+      "target_column": 0,
+      "test_type": "spelling",
+      "original": "pantakip na ginamit",
+      "query": "pantakip na ignamit",
+      "references": [
+        "ypinagpongpong",
+        "ypinopongpong"
+      ]
+    },
+    {
+      "id": "tagalog_to_bicol_spelling_047",
+      "direction": "tagalog_to_bicol",
+      "source": "Tagalog",
+      "target_column": 0,
+      "test_type": "spelling",
+      "original": "Ang lugar o tao na naaamoy",
+      "query": "Ang luagr o tao na naaamoy",
+      "references": [
+        "napaparoğnan"
+      ]
+    },
+    {
+      "id": "tagalog_to_bicol_spelling_048",
+      "direction": "tagalog_to_bicol",
+      "source": "Tagalog",
+      "target_column": 0,
+      "test_type": "spelling",
+      "original": "Ang nakakabali",
+      "query": "Ang naakkabali",
+      "references": [
+        "nacacasarag"
+      ]
+    },
+    {
+      "id": "tagalog_to_bicol_spelling_049",
+      "direction": "tagalog_to_bicol",
+      "source": "Tagalog",
+      "target_column": 0,
+      "test_type": "spelling",
+      "original": "Sinisikmuran",
+      "query": "Sinisimkuran",
+      "references": [
+        "hinaharamayan"
+      ]
+    },
+    {
+      "id": "tagalog_to_bicol_spelling_050",
+      "direction": "tagalog_to_bicol",
+      "source": "Tagalog",
+      "target_column": 0,
+      "test_type": "spelling",
+      "original": "Idinagdag sa pagpapahaba",
+      "query": "Idinagdag sa pgapapahaba",
+      "references": [
+        "ypinaglinalambo"
+      ]
+    },
+    {
+      "id": "tagalog_to_bicol_syntax_proxy_001",
+      "direction": "tagalog_to_bicol",
+      "source": "Tagalog",
+      "target_column": 0,
+      "test_type": "syntax_proxy",
+      "original": "Ang lugar o taong inalisan",
+      "query": "Ang o lugar taong inalisan",
+      "references": [
+        "dinadayhan"
+      ]
+    },
+    {
+      "id": "tagalog_to_bicol_syntax_proxy_002",
+      "direction": "tagalog_to_bicol",
+      "source": "Tagalog",
+      "target_column": 0,
+      "test_type": "syntax_proxy",
+      "original": "bubong kawayan",
+      "query": "kawayan bubong",
+      "references": [
+        "capacapa"
+      ]
+    },
+    {
+      "id": "tagalog_to_bicol_syntax_proxy_003",
+      "direction": "tagalog_to_bicol",
+      "source": "Tagalog",
+      "target_column": 0,
+      "test_type": "syntax_proxy",
+      "original": "lugar o puno",
+      "query": "lugar puno o",
+      "references": [
+        "pinasagacsacan",
+        "sinasagacsacan"
+      ]
+    },
+    {
+      "id": "tagalog_to_bicol_syntax_proxy_004",
+      "direction": "tagalog_to_bicol",
+      "source": "Tagalog",
+      "target_column": 0,
+      "test_type": "syntax_proxy",
+      "original": "Ibig sabihin ay 'niyon'",
+      "query": "Ibig sabihin 'niyon' ay",
+      "references": [
+        "cayian"
+      ]
+    },
+    {
+      "id": "tagalog_to_bicol_syntax_proxy_005",
+      "direction": "tagalog_to_bicol",
+      "source": "Tagalog",
+      "target_column": 0,
+      "test_type": "syntax_proxy",
+      "original": "Pinagmulang lahi",
+      "query": "lahi Pinagmulang",
+      "references": [
+        "guinicanan"
+      ]
+    },
+    {
+      "id": "tagalog_to_bicol_syntax_proxy_006",
+      "direction": "tagalog_to_bicol",
+      "source": "Tagalog",
+      "target_column": 0,
+      "test_type": "syntax_proxy",
+      "original": "Pagbabayad ng utang sa kalakal",
+      "query": "Pagbabayad ng sa utang kalakal",
+      "references": [
+        "guisi"
+      ]
+    },
+    {
+      "id": "tagalog_to_bicol_syntax_proxy_007",
+      "direction": "tagalog_to_bicol",
+      "source": "Tagalog",
+      "target_column": 0,
+      "test_type": "syntax_proxy",
+      "original": "paggalaw ng paa sa sayaw",
+      "query": "paggalaw ng paa sayaw sa",
+      "references": [
+        "sadsad"
+      ]
+    },
+    {
+      "id": "tagalog_to_bicol_syntax_proxy_008",
+      "direction": "tagalog_to_bicol",
+      "source": "Tagalog",
+      "target_column": 0,
+      "test_type": "syntax_proxy",
+      "original": "Ang tinatawag nang ganito.",
+      "query": "Ang nang tinatawag ganito.",
+      "references": [
+        "yniydé"
+      ]
+    },
+    {
+      "id": "tagalog_to_bicol_syntax_proxy_009",
+      "direction": "tagalog_to_bicol",
+      "source": "Tagalog",
+      "target_column": 0,
+      "test_type": "syntax_proxy",
+      "original": "Laruan para sa umiiyak na bata",
+      "query": "para Laruan sa umiiyak na bata",
+      "references": [
+        "calyag",
+        "nacalyag",
+        "nagcalyag"
+      ]
+    },
+    {
+      "id": "tagalog_to_bicol_syntax_proxy_010",
+      "direction": "tagalog_to_bicol",
+      "source": "Tagalog",
+      "target_column": 0,
+      "test_type": "syntax_proxy",
+      "original": "Mga binibiktima ng bayawak",
+      "query": "Mga binibiktima bayawak ng",
+      "references": [
+        "guinogotó",
+        "pinaggotó"
+      ]
+    },
+    {
+      "id": "tagalog_to_bicol_syntax_proxy_011",
+      "direction": "tagalog_to_bicol",
+      "source": "Tagalog",
+      "target_column": 0,
+      "test_type": "syntax_proxy",
+      "original": "Naghahagisan ng damo",
+      "query": "Naghahagisan damo ng",
+      "references": [
+        "nagguinsa",
+        "naguinsa"
+      ]
+    },
+    {
+      "id": "tagalog_to_bicol_syntax_proxy_012",
+      "direction": "tagalog_to_bicol",
+      "source": "Tagalog",
+      "target_column": 0,
+      "test_type": "syntax_proxy",
+      "original": "Ang bagay na kinuha o sinabi.",
+      "query": "bagay Ang na kinuha o sinabi.",
+      "references": [
+        "tinotoho"
+      ]
+    },
+    {
+      "id": "tagalog_to_bicol_syntax_proxy_013",
+      "direction": "tagalog_to_bicol",
+      "source": "Tagalog",
+      "target_column": 0,
+      "test_type": "syntax_proxy",
+      "original": "Ipinaubaya sa tagahatol",
+      "query": "Ipinaubaya tagahatol sa",
+      "references": [
+        "napapapaghatol"
+      ]
+    },
+    {
+      "id": "tagalog_to_bicol_syntax_proxy_014",
+      "direction": "tagalog_to_bicol",
+      "source": "Tagalog",
+      "target_column": 0,
+      "test_type": "syntax_proxy",
+      "original": "Mga panghihikayat, oras, at dahilan ng pagharang o pagpigil sa isang balak.",
+      "query": "Mga panghihikayat, oras, at dahilan ng pagharang o pagpigil isang sa balak.",
+      "references": [
+        "ypinagsosolang",
+        "ysinosolang"
+      ]
+    },
+    {
+      "id": "tagalog_to_bicol_syntax_proxy_015",
+      "direction": "tagalog_to_bicol",
+      "source": "Tagalog",
+      "target_column": 0,
+      "test_type": "syntax_proxy",
+      "original": "Taong/lugar na binabantayan",
+      "query": "na Taong/lugar binabantayan",
+      "references": [
+        "binabantayan"
+      ]
+    },
+    {
+      "id": "tagalog_to_bicol_syntax_proxy_016",
+      "direction": "tagalog_to_bicol",
+      "source": "Tagalog",
+      "target_column": 0,
+      "test_type": "syntax_proxy",
+      "original": "Hinala, ngalan, oras, dahilan",
+      "query": "Hinala, oras, ngalan, dahilan",
+      "references": [
+        "ylinologodlogod"
+      ]
+    },
+    {
+      "id": "tagalog_to_bicol_syntax_proxy_017",
+      "direction": "tagalog_to_bicol",
+      "source": "Tagalog",
+      "target_column": 0,
+      "test_type": "syntax_proxy",
+      "original": "Pantikwas ng sinulid",
+      "query": "Pantikwas sinulid ng",
+      "references": [
+        "barera"
+      ]
+    },
+    {
+      "id": "tagalog_to_bicol_syntax_proxy_018",
+      "direction": "tagalog_to_bicol",
+      "source": "Tagalog",
+      "target_column": 0,
+      "test_type": "syntax_proxy",
+      "original": "Oras / dahilan ng paghingi ng iba",
+      "query": "/ Oras dahilan ng paghingi ng iba",
+      "references": [
+        "yquinacagot"
+      ]
+    },
+    {
+      "id": "tagalog_to_bicol_syntax_proxy_019",
+      "direction": "tagalog_to_bicol",
+      "source": "Tagalog",
+      "target_column": 0,
+      "test_type": "syntax_proxy",
+      "original": "Plautang kawayan",
+      "query": "kawayan Plautang",
+      "references": [
+        "borobodyong"
+      ]
+    },
+    {
+      "id": "tagalog_to_bicol_syntax_proxy_020",
+      "direction": "tagalog_to_bicol",
+      "source": "Tagalog",
+      "target_column": 0,
+      "test_type": "syntax_proxy",
+      "original": "Malawakang kagutuman",
+      "query": "kagutuman Malawakang",
+      "references": [
+        "naggogotom"
+      ]
+    },
+    {
+      "id": "tagalog_to_bicol_syntax_proxy_021",
+      "direction": "tagalog_to_bicol",
+      "source": "Tagalog",
+      "target_column": 0,
+      "test_type": "syntax_proxy",
+      "original": "Lugar ng pang-amoy",
+      "query": "ng Lugar pang-amoy",
+      "references": [
+        "pinagpaparoğnan",
+        "pinapaparoğnan"
+      ]
+    },
+    {
+      "id": "tagalog_to_bicol_syntax_proxy_022",
+      "direction": "tagalog_to_bicol",
+      "source": "Tagalog",
+      "target_column": 0,
+      "test_type": "syntax_proxy",
+      "original": "Bastos na salita o senyas",
+      "query": "Bastos salita na o senyas",
+      "references": [
+        "bacuit"
+      ]
+    },
+    {
+      "id": "tagalog_to_bicol_syntax_proxy_023",
+      "direction": "tagalog_to_bicol",
+      "source": "Tagalog",
+      "target_column": 0,
+      "test_type": "syntax_proxy",
+      "original": "sanhi/oras ng pagdudulot ng lagnat",
+      "query": "ng sanhi/oras pagdudulot ng lagnat",
+      "references": [
+        "yninanayop",
+        "ypiĝnayop"
+      ]
+    },
+    {
+      "id": "tagalog_to_bicol_syntax_proxy_024",
+      "direction": "tagalog_to_bicol",
+      "source": "Tagalog",
+      "target_column": 0,
+      "test_type": "syntax_proxy",
+      "original": "ang nagsasalita o nakikipag-usap",
+      "query": "ang o nagsasalita nakikipag-usap",
+      "references": [
+        "gninağnaoğnaoan"
+      ]
+    },
+    {
+      "id": "tagalog_to_bicol_syntax_proxy_025",
+      "direction": "tagalog_to_bicol",
+      "source": "Tagalog",
+      "target_column": 0,
+      "test_type": "syntax_proxy",
+      "original": "Ang tubig para sa paghuhugas ng dumi, oras, at dahilan ng paghuhugas",
+      "query": "tubig Ang para sa paghuhugas ng dumi, oras, at dahilan ng paghuhugas",
+      "references": [
+        "ydinadamoy"
+      ]
+    },
+    {
+      "id": "tagalog_to_bicol_syntax_proxy_026",
+      "direction": "tagalog_to_bicol",
+      "source": "Tagalog",
+      "target_column": 0,
+      "test_type": "syntax_proxy",
+      "original": "Ang batang ito ay laging magulo ang buhok.",
+      "query": "Ang ito batang ay laging magulo ang buhok.",
+      "references": [
+        "nanonoragpac"
+      ]
+    },
+    {
+      "id": "tagalog_to_bicol_syntax_proxy_027",
+      "direction": "tagalog_to_bicol",
+      "source": "Tagalog",
+      "target_column": 0,
+      "test_type": "syntax_proxy",
+      "original": "Maliit na puting bulaklak ng palay",
+      "query": "Maliit puting na bulaklak ng palay",
+      "references": [
+        "amoguing"
+      ]
+    },
+    {
+      "id": "tagalog_to_bicol_syntax_proxy_028",
+      "direction": "tagalog_to_bicol",
+      "source": "Tagalog",
+      "target_column": 0,
+      "test_type": "syntax_proxy",
+      "original": "Lugar / palayok kung saan iniipon",
+      "query": "Lugar / palayok saan kung iniipon",
+      "references": [
+        "pinagcaahigan",
+        "quinacahigan"
+      ]
+    },
+    {
+      "id": "tagalog_to_bicol_syntax_proxy_029",
+      "direction": "tagalog_to_bicol",
+      "source": "Tagalog",
+      "target_column": 0,
+      "test_type": "syntax_proxy",
+      "original": "Kamay, oras, at dahilan ng pagkukurit",
+      "query": "oras, Kamay, at dahilan ng pagkukurit",
+      "references": [
+        "ypinagpinit",
+        "ypinipinit"
+      ]
+    },
+    {
+      "id": "tagalog_to_bicol_syntax_proxy_030",
+      "direction": "tagalog_to_bicol",
+      "source": "Tagalog",
+      "target_column": 0,
+      "test_type": "syntax_proxy",
+      "original": "Dalawang taong pinagtambal",
+      "query": "taong Dalawang pinagtambal",
+      "references": [
+        "pinag aato"
+      ]
+    },
+    {
+      "id": "tagalog_to_bicol_syntax_proxy_031",
+      "direction": "tagalog_to_bicol",
+      "source": "Tagalog",
+      "target_column": 0,
+      "test_type": "syntax_proxy",
+      "original": "Maglinis ng isda",
+      "query": "ng Maglinis isda",
+      "references": [
+        "nadapot",
+        "nagdapot"
+      ]
+    },
+    {
+      "id": "tagalog_to_bicol_syntax_proxy_032",
+      "direction": "tagalog_to_bicol",
+      "source": "Tagalog",
+      "target_column": 0,
+      "test_type": "syntax_proxy",
+      "original": "Ang lugar, taong binalaan, o ang babala.",
+      "query": "Ang taong lugar, binalaan, o ang babala.",
+      "references": [
+        "pinaaaboğnan"
+      ]
+    },
+    {
+      "id": "tagalog_to_bicol_syntax_proxy_033",
+      "direction": "tagalog_to_bicol",
+      "source": "Tagalog",
+      "target_column": 0,
+      "test_type": "syntax_proxy",
+      "original": "Ang pinipili",
+      "query": "pinipili Ang",
+      "references": [
+        "pinagpili",
+        "pinipili"
+      ]
+    },
+    {
+      "id": "tagalog_to_bicol_syntax_proxy_034",
+      "direction": "tagalog_to_bicol",
+      "source": "Tagalog",
+      "target_column": 0,
+      "test_type": "syntax_proxy",
+      "original": "Ang kamay, oras, at dahilan ng pagsusukat gamit ang dangkal",
+      "query": "Ang kamay, oras, dahilan at ng pagsusukat gamit ang dangkal",
+      "references": [
+        "ydinadağnao"
+      ]
+    },
+    {
+      "id": "tagalog_to_bicol_syntax_proxy_035",
+      "direction": "tagalog_to_bicol",
+      "source": "Tagalog",
+      "target_column": 0,
+      "test_type": "syntax_proxy",
+      "original": "Pinapakain ang apoy",
+      "query": "Pinapakain apoy ang",
+      "references": [
+        "nagamac"
+      ]
+    },
+    {
+      "id": "tagalog_to_bicol_syntax_proxy_036",
+      "direction": "tagalog_to_bicol",
+      "source": "Tagalog",
+      "target_column": 0,
+      "test_type": "syntax_proxy",
+      "original": "Lugar na narating",
+      "query": "na Lugar narating",
+      "references": [
+        "binoboluagan"
+      ]
+    },
+    {
+      "id": "tagalog_to_bicol_syntax_proxy_037",
+      "direction": "tagalog_to_bicol",
+      "source": "Tagalog",
+      "target_column": 0,
+      "test_type": "syntax_proxy",
+      "original": "nagkakaroon ng nana",
+      "query": "ng nagkakaroon nana",
+      "references": [
+        "nanana",
+        "naĝnanana"
+      ]
+    },
+    {
+      "id": "tagalog_to_bicol_syntax_proxy_038",
+      "direction": "tagalog_to_bicol",
+      "source": "Tagalog",
+      "target_column": 0,
+      "test_type": "syntax_proxy",
+      "original": "Tunog o pagsabog ng arkabus.",
+      "query": "Tunog pagsabog o ng arkabus.",
+      "references": [
+        "lagatob"
+      ]
+    },
+    {
+      "id": "tagalog_to_bicol_syntax_proxy_039",
+      "direction": "tagalog_to_bicol",
+      "source": "Tagalog",
+      "target_column": 0,
+      "test_type": "syntax_proxy",
+      "original": "Hayaan ang sarili na matangay ng mga pagnanasa.",
+      "query": "ang Hayaan sarili na matangay ng mga pagnanasa.",
+      "references": [
+        "pahonod"
+      ]
+    },
+    {
+      "id": "tagalog_to_bicol_syntax_proxy_040",
+      "direction": "tagalog_to_bicol",
+      "source": "Tagalog",
+      "target_column": 0,
+      "test_type": "syntax_proxy",
+      "original": "Mag-angat ng bagay gamit ang lever o kamay.",
+      "query": "Mag-angat ng bagay gamit lever ang o kamay.",
+      "references": [
+        "ypinagyual"
+      ]
+    },
+    {
+      "id": "tagalog_to_bicol_syntax_proxy_041",
+      "direction": "tagalog_to_bicol",
+      "source": "Tagalog",
+      "target_column": 0,
+      "test_type": "syntax_proxy",
+      "original": "Malakas na itinapon nang maraming beses",
+      "query": "Malakas na itinapon nang beses maraming",
+      "references": [
+        "calaticat",
+        "nacalaticat",
+        "nagcalaticat"
+      ]
+    },
+    {
+      "id": "tagalog_to_bicol_syntax_proxy_042",
+      "direction": "tagalog_to_bicol",
+      "source": "Tagalog",
+      "target_column": 0,
+      "test_type": "syntax_proxy",
+      "original": "ang pamilihan ng mamimili o pamamalengke",
+      "query": "ang pamilihan ng mamimili pamamalengke o",
+      "references": [
+        "pinagsadan",
+        "sinasadan"
+      ]
+    },
+    {
+      "id": "tagalog_to_bicol_syntax_proxy_043",
+      "direction": "tagalog_to_bicol",
+      "source": "Tagalog",
+      "target_column": 0,
+      "test_type": "syntax_proxy",
+      "original": "Ang lugar para sa paglalakad",
+      "query": "Ang lugar sa para paglalakad",
+      "references": [
+        "pinağniğnindalan"
+      ]
+    },
+    {
+      "id": "tagalog_to_bicol_syntax_proxy_044",
+      "direction": "tagalog_to_bicol",
+      "source": "Tagalog",
+      "target_column": 0,
+      "test_type": "syntax_proxy",
+      "original": "Kamay, oras at dahilan ng pagpiga",
+      "query": "Kamay, oras at ng dahilan pagpiga",
+      "references": [
+        "ypinagpogá",
+        "ypinopogá"
+      ]
+    },
+    {
+      "id": "tagalog_to_bicol_syntax_proxy_045",
+      "direction": "tagalog_to_bicol",
+      "source": "Tagalog",
+      "target_column": 0,
+      "test_type": "syntax_proxy",
+      "original": "Ang dala, oras at dahilan ng pagpunta",
+      "query": "Ang dala, oras dahilan at ng pagpunta",
+      "references": [
+        "ypinagpapatubo",
+        "ypinatutubo"
+      ]
+    },
+    {
+      "id": "tagalog_to_bicol_syntax_proxy_046",
+      "direction": "tagalog_to_bicol",
+      "source": "Tagalog",
+      "target_column": 0,
+      "test_type": "syntax_proxy",
+      "original": "pasan na may tela",
+      "query": "na pasan may tela",
+      "references": [
+        "hagban"
+      ]
+    },
+    {
+      "id": "tagalog_to_bicol_syntax_proxy_047",
+      "direction": "tagalog_to_bicol",
+      "source": "Tagalog",
+      "target_column": 0,
+      "test_type": "syntax_proxy",
+      "original": "Sumama sa iba para sa pangingisda o gawain.",
+      "query": "Sumama sa iba para pangingisda sa o gawain.",
+      "references": [
+        "toloy"
+      ]
+    },
+    {
+      "id": "tagalog_to_bicol_syntax_proxy_048",
+      "direction": "tagalog_to_bicol",
+      "source": "Tagalog",
+      "target_column": 0,
+      "test_type": "syntax_proxy",
+      "original": "Oras at dahilan ng pagkapunit",
+      "query": "Oras at dahilan pagkapunit ng",
+      "references": [
+        "yquinapapasing"
+      ]
+    },
+    {
+      "id": "tagalog_to_bicol_syntax_proxy_049",
+      "direction": "tagalog_to_bicol",
+      "source": "Tagalog",
+      "target_column": 0,
+      "test_type": "syntax_proxy",
+      "original": "sanhi ng paghanga",
+      "query": "sanhi paghanga ng",
+      "references": [
+        "nacananalé"
+      ]
+    },
+    {
+      "id": "tagalog_to_bicol_syntax_proxy_050",
+      "direction": "tagalog_to_bicol",
+      "source": "Tagalog",
+      "target_column": 0,
+      "test_type": "syntax_proxy",
+      "original": "Hindi makapaniwala",
+      "query": "makapaniwala Hindi",
+      "references": [
+        "atea",
+        "atete"
+      ]
+    }
+  ]
+}
