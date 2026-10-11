@@ -1,1 +1,39 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Testing · BICOLANG</title><link rel="icon" href="assets/logo.png"><link rel="stylesheet" href="styles.css"><script src="measurements.js" defer></script><script src="testing.mjs" type="module"></script></head><body><header><a class="brand" href="index.html"><img class="brand-logo" src="assets/logo.png" alt=""><span>BICOLANG</span></a><nav><a href="index.html">Translator</a><a href="dataset.html">Dataset</a><a href="about.html">About</a><a href="testing.html" class="active">Testing</a></nav></header><main class="testing-page"><section class="test-card"><h1>Intonation trials</h1><p>Experimental pitch-contour test. Enter a word or short phrase, select the expected pattern, then record it in a quiet room. Speak in your normal voice. This tests rising, falling or level pitch; it does not validate Bikol pronunciation, word meaning or fluency.</p><div class="test-controls"><label>Test word or phrase<input id="testPhrase" maxlength="160" placeholder="Enter your test word"></label><label>Expected pitch pattern<select id="expected"><option value="rising">Rising</option><option value="falling">Falling</option><option value="level">Level</option></select></label></div><div class="test-actions"><button id="record">Record trial</button><button id="stopRecording" disabled>Stop</button></div><p id="recordStatus" role="status">Microphone access is requested only when you record. Pitch analysis stays on this device; audio is not stored.</p><p class="test-note">The detector compares median pitch in the first and last thirds of voiced samples. A change above +2 semitones is rising, below −2 is falling, otherwise level. These thresholds are experimental and have not been validated for Bikol. Silence or insufficient voiced samples produce an unscorable trial. Speaking speed is not intonation.</p><h2>Intonation agreement</h2><p id="intonationSummary">No trials yet.</p><div class="table-wrap" tabindex="0" role="region" aria-label="Intonation confusion matrix"><table><thead><tr><th>Expected / Detected</th><th>Rising</th><th>Falling</th><th>Level</th></tr></thead><tbody id="confusionRows"></tbody></table></div></section><section class="test-card"><h2>Speed measurements</h2><div id="timingCards" class="timing-cards"></div><p>Run translation, Speak, and Listen trials on the <a href="index.html">translator</a>. Translation runs from worker request to rendered result; it excludes the typing delay and includes first-use model download/index setup. STT runs from Speak to final text and includes recording and permission time; post-speech latency is recorded separately when the browser supplies that event. TTS latency runs from Listen to the first audio start; audio duration is recorded separately.</p><p>Means use successful trials only. Errors, no matches, cancelled TTS and unscorable intonation trials remain in the log. Results depend on device, browser, input length, cache and network. Keep cold-start trials separate from warm trials when reporting results.</p></section><section class="test-card"><h2>Trial log</h2><p>The latest 500 trials are saved in this browser. Export before clearing them. Exports contain the tested text.</p><div class="test-actions"><button id="exportTrials">Download CSV</button><button id="clearTrials">Clear trials</button></div><div class="table-wrap" tabindex="0" role="region" aria-label="Recorded trials"><table class="trials-table"><thead><tr><th>Time</th><th>Test</th><th>Text</th><th>Outcome</th><th>Time / pitch</th></tr></thead><tbody id="trialRows"></tbody></table></div></section></main><footer>BICOLANG · Experimental evaluation tools</footer></body></html>
+<!doctype html>
+<!--
+ Translation-speed results page. measurements.js reads browser-local trials;
+ testing.mjs renders summaries and handles CSV export and clearing.
+-->
+<html lang="en">
+<head>
+ <meta charset="utf-8">
+ <meta name="viewport" content="width=device-width,initial-scale=1">
+ <title>Testing · BICOLANG</title>
+ <link rel="icon" href="assets/logo.png">
+ <link rel="stylesheet" href="styles.css">
+ <script src="measurements.js" defer></script>
+ <script src="testing.mjs" type="module"></script>
+</head>
+<body>
+ <header>
+  <a class="brand" href="index.html"><img class="brand-logo" src="assets/logo.png" alt=""><span>BICOLANG</span></a>
+  <nav><a href="index.html">Translator</a><a href="dataset.html">Dataset</a><a href="about.html">About</a><a href="testing.html" class="active">Testing</a></nav>
+ </header>
+ <main class="testing-page">
+  <section class="test-card">
+   <h1>Translation speed</h1>
+   <div id="timingCards" class="timing-cards"></div>
+   <p>Run searches on the <a href="index.html">translator</a> to record trials. Each measurement starts when the search request is sent and ends when the result is displayed.</p>
+   <p>The first use of an AI model may include model download and index setup. Results therefore depend on the selected model, device, browser, input, cache, and network. Separate first-use and repeat trials when reporting results.</p>
+  </section>
+  <section class="test-card">
+   <h2>Translation trial log</h2>
+   <p>The latest 500 translation trials are saved in this browser. Successful, failed, and no-match searches remain in the log. Export the data before clearing it.</p>
+   <div class="test-actions"><button id="exportTrials">Download CSV</button><button id="clearTrials">Clear trials</button></div>
+   <div class="table-wrap" tabindex="0" role="region" aria-label="Recorded translation trials">
+    <table class="trials-table"><thead><tr><th>Time</th><th>Source</th><th>AI model</th><th>Text</th><th>Outcome</th><th>Speed</th></tr></thead><tbody id="trialRows"></tbody></table>
+   </div>
+  </section>
+ </main>
+ <footer>BICOLANG · Translation speed testing</footer>
+</body>
+</html>

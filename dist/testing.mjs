@@ -1,7 +1,55 @@
-import{estimatePitch,classifyContour}from './pitch.mjs';
-const $=id=>document.getElementById(id);let stream,context,source,analyser,interval,timeout,values=[],started,trial,pending=false,recording=false;
-function render(){const records=globalThis.BICOLANGMeasurements.list(),intonation=records.filter(r=>r.kind==='Intonation'),scorable=intonation.filter(r=>r.detected!=='unscorable'),correct=scorable.filter(r=>r.correct).length; $('intonationSummary').textContent=scorable.length?`${correct}/${scorable.length} scorable trials matched (${(100*correct/scorable.length).toFixed(1)}%). ${intonation.length-scorable.length} unscorable trials excluded. This is agreement with the selected pattern, not validated language accuracy.`:'No scorable trials yet.';const matrix=$('confusionRows');matrix.replaceChildren();for(const expected of ['rising','falling','level']){const row=document.createElement('tr');for(const value of [expected,...['rising','falling','level'].map(d=>scorable.filter(r=>r.expected===expected&&r.detected===d).length)]){const td=document.createElement('td');td.textContent=value;row.append(td);}matrix.append(row);}const tbody=$('trialRows');tbody.replaceChildren();for(const r of records.slice(-100).reverse()){const row=document.createElement('tr');const detail=r.kind==='Intonation'?(Number.isFinite(r.semitones)?r.semitones.toFixed(2)+' semitones':'Insufficient voice'):(Number.isFinite(r.ms)?(r.ms/1000).toFixed(3)+' s':'Unavailable');for(const text of [new Date(r.timestamp).toLocaleTimeString(),r.kind,r.query,r.outcome,detail]){const td=document.createElement('td');td.textContent=text;row.append(td);}tbody.append(row);}}
-async function release(){clearInterval(interval);clearTimeout(timeout);stream?.getTracks().forEach(t=>t.stop());source?.disconnect();if(context&&context.state!=='closed')await context.close();stream=context=source=analyser=null;recording=false;$('record').disabled=false;$('stopRecording').disabled=true;$('expected').disabled=false;$('testPhrase').disabled=false;}
-async function stop(save=true){if(!recording)return;recording=false;const result=classifyContour(values),durationMs=performance.now()-started;await release();if(save){globalThis.BICOLANGMeasurements.add({kind:'Intonation',...trial,...result,durationMs,model:'Experimental pitch contour',outcome:result.detected==='unscorable'?'unscorable':result.detected===trial.expected?'matched':'mismatched',correct:result.detected==='unscorable'?null:result.detected===trial.expected});$('recordStatus').textContent=result.detected==='unscorable'?'Too little clear voiced audio to score. Try a longer phrase in a quiet room.':`Expected ${trial.expected}; detected ${result.detected} (${result.semitones.toFixed(2)} semitones).`;}}
-$('record').onclick=async()=>{if(pending||recording)return;if(!$('testPhrase').value.trim()){$('recordStatus').textContent='Enter a test word or phrase first.';return;}if(!navigator.mediaDevices?.getUserMedia||!(globalThis.AudioContext||globalThis.webkitAudioContext)){$('recordStatus').textContent='Microphone analysis is unavailable. Use a supported browser over HTTPS.';return;}pending=true;$('record').disabled=true;trial={query:$('testPhrase').value.trim(),expected:$('expected').value,language:'Bikol / selected test material'};try{context=new (globalThis.AudioContext||globalThis.webkitAudioContext)();await context.resume();stream=await navigator.mediaDevices.getUserMedia({audio:{echoCancellation:false,noiseSuppression:false,autoGainControl:false}});source=context.createMediaStreamSource(stream);analyser=context.createAnalyser();analyser.fftSize=4096;source.connect(analyser);values=[];started=performance.now();recording=true;$('stopRecording').disabled=false;$('expected').disabled=true;$('testPhrase').disabled=true;$('recordStatus').textContent='Recording… Speak your test phrase, then Stop (maximum 10 seconds).';const samples=new Float32Array(analyser.fftSize);interval=setInterval(()=>{analyser.getFloatTimeDomainData(samples);const pitch=estimatePitch(samples,context.sampleRate);if(pitch)values.push(pitch);},60);timeout=setTimeout(()=>stop(),10000);}catch(e){await release();$('recordStatus').textContent='Microphone could not start. Check permission and use HTTPS.';}finally{pending=false;}};
-$('stopRecording').onclick=()=>stop();$('exportTrials').onclick=()=>{const url=URL.createObjectURL(new Blob([globalThis.BICOLANGMeasurements.csv()],{type:'text/csv;charset=utf-8'})),a=document.createElement('a');a.href=url;a.download='BICOLANG_trials.csv';a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);};$('clearTrials').onclick=()=>{if(confirm('Clear all saved trials in this browser?'))globalThis.BICOLANGMeasurements.clear();};globalThis.addEventListener('bicolang-trials',render);globalThis.addEventListener('pagehide',()=>{clearInterval(interval);clearTimeout(timeout);stream?.getTracks().forEach(t=>t.stop());context?.close();});render();
+/*
+ * Translation-speed testing page
+ * ------------------------------
+ * Measurements are created on the translator page by app.js and persisted by
+ * measurements.js. This file only displays, exports, or clears those records.
+ */
+const $=id=>document.getElementById(id);
+
+// Show the newest 100 stored trials while keeping up to 500 available for CSV.
+function render(){
+ const records=globalThis.BICOLANGMeasurements.list();
+ const tbody=$('trialRows');
+ tbody.replaceChildren();
+
+ for(const record of records.slice(-100).reverse()){
+  const row=document.createElement('tr');
+  const values=[
+   new Date(record.timestamp).toLocaleTimeString(),
+   record.language,
+   record.model,
+   record.query,
+   record.outcome,
+   Number.isFinite(record.ms)?(record.ms/1000).toFixed(3)+' s':'Unavailable'
+  ];
+
+  for(const value of values){
+   const cell=document.createElement('td');
+   cell.textContent=value??'';
+   row.append(cell);
+  }
+  tbody.append(row);
+ }
+}
+
+// Create a temporary download URL for the CSV generated by measurements.js.
+$('exportTrials').onclick=()=>{
+ const blob=new Blob([globalThis.BICOLANGMeasurements.csv()],{type:'text/csv;charset=utf-8'});
+ const url=URL.createObjectURL(blob);
+ const link=document.createElement('a');
+ link.href=url;
+ link.download='BICOLANG_translation_speed_trials.csv';
+ link.click();
+ setTimeout(()=>URL.revokeObjectURL(url),1000);
+};
+
+// Confirmation protects a user's locally collected trials from accidental loss.
+$('clearTrials').onclick=()=>{
+ if(confirm('Clear all saved translation trials in this browser?')){
+  globalThis.BICOLANGMeasurements.clear();
+ }
+};
+
+// Re-render whenever measurements.js adds or clears a trial.
+globalThis.addEventListener('bicolang-trials',render);
+render();

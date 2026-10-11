@@ -1,6 +1,6 @@
 # BICOLANG
 
-An AI-Supported Bikol Naga Translator. Static HTML, CSS and JavaScript with Bicol, Tagalog and English panels, automatic search, six retrieval methods, model measurements, the full dataset, team page browser text-to-speech, speech input, live speed measurements and experimental intonation trials.
+An AI-Supported Bikol Naga Translator. Static HTML, CSS and JavaScript with Bicol, Tagalog and English panels, automatic search, three multilingual AI models, browser text-to-speech, the full dataset, a team page, and translation-speed testing.
 
 ## Deploy from GitHub to Vercel
 
@@ -26,7 +26,7 @@ Open http://localhost:8000. Use an HTTP server rather than opening HTML files di
 
 ## Runtime notes
 
-The site is dictionary-based; word and dataset phrase searches are supported. Exact entries bypass transformer downloads. For related-entry AI reranking, the selected model downloads from Hugging Face on first use (roughly 120–280 MB, depending on the model), then runs in the browser. Internet access is needed for the initial model/runtime download. Downloads and inference can be slower on phones. Browser caches may be cleared by the device.
+The site is dictionary-based; word and dataset phrase searches are supported. Users can select Multilingual MiniLM, Multilingual DistilUSE, or Multilingual MPNet. Every AI option performs exact-first dictionary lookup, then uses character retrieval and transformer reranking when an exact entry is unavailable. The selected model downloads from Hugging Face on first use (roughly 120–280 MB, depending on the model), then runs in the browser. Internet access is needed for the initial model/runtime download. Downloads and inference can be slower on phones. Browser caches may be cleared by the device.
 
 Listen buttons use installed browser/device voices. Native Bikol voices may be absent; the interface marks fallback pronunciation as approximate. Speech support varies by browser.
 
@@ -34,12 +34,12 @@ The supplied background is displayed at 90% opacity (a 10% white wash). Phone la
 
 See `dist/README.txt` for model details and `evaluation/README.md` for measurement scope and reproduction. Montserrat font licensing is included in `dist/fonts/OFL.txt`.
 
-## Speech input and testing
+## Code guide
 
-Speech input uses Web Speech SpeechRecognition when available. Recognition languages are explicitly selectable: Filipino, English, and experimental Bikol Naga. The browser may reject unsupported languages or send audio to its online recognition service. A recognition language does not change the dictionary source language; choose both appropriately. Review recognized text before relying on a translation. No native Bikol speech model is bundled.
+See [`CODE_GUIDE.md`](CODE_GUIDE.md) for a file-by-file explanation and a walkthrough of the exact lookup, TF-IDF candidate retrieval, model reranking, result display, text-to-speech, and translation-speed operations. The JavaScript files also include inline comments beside the relevant code.
 
-The Testing page measures an experimental pitch contour locally through Web Audio microphone samples. Normalized autocorrelation estimates 70–500 Hz pitch from 4096-sample frames every 60 ms; RMS below .01 or correlation below .75 is rejected. At least 12 voiced frames are required. Median pitch in the first/last thirds is compared in semitones, with ±2 semitones as the experimental rising/falling thresholds. The result is agreement with a user-selected pattern, not validated pronunciation accuracy or meaning discrimination. No microphone audio is stored by the pitch test. These thresholds require validation with labeled native-speaker recordings before use as research evidence.
+## Translation-speed testing
 
-Translation timing excludes the automatic-search debounce and includes model downloads/index construction when needed. STT timing includes recording/permission time; speech-end-to-result is separately recorded when available. TTS records request-to-first-audio latency and audio duration across all spoken segments. Cancelled and failed events remain in the CSV and are excluded from successful timing averages. Measurements use the monotonic browser performance clock, not Python's Time module. Trial logs (including tested text) are stored in localStorage, limited to the latest 500 records; export CSV on the Testing page. The log view shows the latest 100. If browser storage is unavailable, trials remain in memory until the page closes. Clear removes all saved trials after confirmation.
+Translation timing excludes the automatic-search debounce and begins when a request is sent to the retrieval worker. It ends when a result is displayed. First-use trials may include model downloads and index construction. Failed and no-match searches remain in the CSV, while the displayed mean uses successful exact and fuzzy results only. Measurements use the browser's monotonic performance clock. Trial logs are stored in localStorage, limited to the latest 500 records; the Testing page displays the latest 100 and supports CSV export. If browser storage is unavailable, trials remain in memory until the page closes.
 
-These additions do not add sentence generation, an OpenAI translation API, or validated language-level intonation evaluation.
+The site does not include speech-to-text, microphone input, intonation testing, or model-performance tables. Text-to-speech remains available as a user feature but is not included in the live speed measurements.

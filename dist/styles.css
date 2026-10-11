@@ -70,3 +70,7 @@ button, nav a, .dataset-tools a {touch-action:manipulation}
 
 .search-actions{display:flex;align-items:center;gap:8px;flex-shrink:0}.search-bar .microphone-button{display:grid;place-items:center;padding:0;width:46px;height:46px;border:1px solid #dbe3f6;background:#f2f5ff;color:#3455ce;box-shadow:none}.search-bar .microphone-button svg{width:22px;height:22px;stroke:currentColor;fill:none}.search-bar .microphone-button:hover:not(:disabled){background:#e5ecff}.search-bar .microphone-button[aria-pressed=true]{background:#ffe8ed;color:#bb254c;border-color:#eca0b2}.search-bar .microphone-button:disabled{cursor:default}
 @media(max-width:600px){.search-actions{grid-column:1/-1;display:flex}.search-actions #searchButton{flex:1}.search-actions .microphone-button{flex-shrink:0;width:46px;height:46px}.search-bar button{grid-column:auto}}
+
+/* Simplified research scope: translation speed is the only live measurement. */
+.timing-cards{grid-template-columns:minmax(0,1fr);max-width:430px}
+@media(max-width:600px){.search-bar>button{grid-column:1/-1;width:100%}}
